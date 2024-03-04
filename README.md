@@ -12,3 +12,5 @@
 
 ## Packages Installed
 - Next.js
+- react-chartjs-2 | Multiaxis Line Chart
+- 
