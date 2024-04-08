@@ -1,0 +1,7 @@
+.quizContainer {display: flex; flex-direction: column; width: 100%; padding: 20px; background: var(--black); color: var(--white);}
+.questionlabel {font-size: 32px; margin-bottom: 90px;}
+.formContainer{display: flex; flex-direction: column; padding: 20px;}
+.answerDesc {margin: 5px 0;}
+.label {display:block; width:100%;}
+.inputAnswer {padding: 20px 30px; margin-bottom: 15px; font-size: 14px; border: 0; border-radius: 40px;}
+.submitButton {padding: 20px 30px; margin-bottom: 60px; border: 0;border-radius: 30px; font-size: 18px; background-color: var(--orange); color: var(--white);}

@@ -1,0 +1,4 @@
+.quizContainer {display: flex; flex-direction: column; background: var(--black); color: var(--white); }
+.answerContainer {display: flex; flex-direction: column;}
+.answerDesc {margin: 5px 0;}
+.label{ display:block; width:100%; }
