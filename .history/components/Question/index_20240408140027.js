@@ -70,8 +70,7 @@ export default function Question() {
     {!isFinished && (
       <> 
       <div className={styles.quizContainer}>
-        <div className={styles.imageContainer}><Image
-          className={styles.bannerImg}
+        <div><Image
           src="/background-img.jpg"
           width={1295}
           height={648}

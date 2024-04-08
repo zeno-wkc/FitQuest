@@ -1,6 +1,6 @@
 .imageContainer {display: flex; justify-content: center; align-items: center; height: 200px;}
 .bannerImg {width: 100%; height: 100%;}
-.quizSumOfQuestion {margin: 30px 20px 0;}
+.quizSumOfQuestion {margin: 0 20px;}
 .quizContainer {display: flex; flex-direction: column; width: 100%; height: 100vh; background: var(--black); color: var(--white);}
 .questionlabel {font-size: 32px; margin-bottom: 90px;}
 .formContainer{display: flex; flex-direction: column; padding: 20px; margin: 0 auto; max-width: 1024px;}
