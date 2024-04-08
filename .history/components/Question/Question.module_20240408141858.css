@@ -10,7 +10,7 @@
 .inputAnswer:last-of-type {margin-bottom: 50%;}
 .submitButton {padding: 20px 30px; margin-bottom: 60px; border: 0;border-radius: 30px; font-size: 18px; background-color: var(--orange); color: var(--white);}
 .answerContainer {display: flex;}
-.answerContainer:last-of-type {margin-bottom: 10%;}
+.answerContainer:last-of-type {margin-bottom: 30%;}
 .inputRadioLabel, .inputCheckboxLabel {padding: 20px 30px; width: 100%; margin-bottom: 15px; border: 0; border-radius: 40px; background-color: var(--grey);}
 .inputRadioIcon:checked + label, .inputCheckboxIcon:checked + label {background-color: var(--orange-light); color: var(--black);}
 .inputRadioIcon, .inputCheckboxIcon {display: none; visibility: hidden;}
