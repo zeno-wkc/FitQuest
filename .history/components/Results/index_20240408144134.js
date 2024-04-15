@@ -29,11 +29,11 @@ export default function Result({answers}) {
         {
           filterVideo.map((item, key) => (
             <div key={key} className={styles.videoCardItems}>
-              <Link className={styles.linkage} href={item.videoURL}>
+              <Link href={item.videoURL}>
                 <div className={styles.imageContainer}>
-                  <img className={styles.imageItem} src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
+                  <img src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
                 </div>
-                <h2 className={styles.videoTitle}>{item.videoName}</h2>
+                <h2>{item.videoName}</h2>
               </Link>
               <p>{item.videoTime}</p>
             </div>

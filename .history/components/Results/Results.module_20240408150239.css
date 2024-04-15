@@ -3,6 +3,5 @@
 .imageContainer {width: 100%;}
 .videoCardItems {}
 .imageItem {width: 100%;}
-.videoTitle{margin: 10px 0; font-size: 14px; color: var(--white); text-transform: lowercase;}
-.videoTitle::first-letter{text-transform: uppercase;}
+.videoTitle{margin: 10px 0; font-size: 14px; color: var(--white);}
 .linkage {text-decoration: none;}

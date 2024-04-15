@@ -29,7 +29,7 @@ export default function Result({answers}) {
         {
           filterVideo.map((item, key) => (
             <div key={key} className={styles.videoCardItems}>
-              <Link className={styles.linkage} href={item.videoURL}>
+              <Link href={item.videoURL}>
                 <div className={styles.imageContainer}>
                   <img className={styles.imageItem} src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
                 </div>

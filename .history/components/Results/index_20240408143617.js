@@ -23,17 +23,17 @@ export default function Result({answers}) {
 
   return (
     <>
-    <div className={styles.videoCardContainer}>
-      <h2 className={styles.pageTitle}>Recommanded Videos</h2>
+    <div>
+      <h2>Recommanded Videos</h2>
       <div>
         {
           filterVideo.map((item, key) => (
-            <div key={key} className={styles.videoCardItems}>
-              <Link className={styles.linkage} href={item.videoURL}>
+            <div key={key}>
+              <Link href={item.videoURL}>
+                <h2>{item.videoName}</h2>
                 <div className={styles.imageContainer}>
-                  <img className={styles.imageItem} src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
+                  <img src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
                 </div>
-                <h2 className={styles.videoTitle}>{item.videoName}</h2>
               </Link>
               <p>{item.videoTime}</p>
             </div>
