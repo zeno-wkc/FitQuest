@@ -1,0 +1,15 @@
+:root {
+  --black-bg: #121212;
+  --black-bg-70: rgba(18, 18, 18, .7);
+  --black: #000;
+  --white: #FFF;
+  --orange: #FF5C00;
+  --orange-light: #FF7C32;
+  --grey: #232627;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
