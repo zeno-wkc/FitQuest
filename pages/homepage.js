@@ -7,7 +7,7 @@ export default function Home() {
   
   var apiKeyInfo = process.env.WEATHER_API_KEY;
   var url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/vancouver?include=fcst%2Cobs%2Chistfcst%2Cstats%2Cdays%2Chours%2Ccurrent%2Calerts&key=${apiKeyInfo}&options=beta&contentType=json`
-
+  console.log(process.env.WEATHER_API_KEY);
   useEffect(() => {
     fetch(url, {
       "method": "GET",
