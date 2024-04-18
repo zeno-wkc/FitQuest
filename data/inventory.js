@@ -32,11 +32,11 @@ export const inventory = {
           },{
             answerId: 2,
             answerTag: "intermediator",
-            answerLabel: "Intermediator"
+            answerLabel: "Intermediate"
           },{
             answerId: 3,
             answerTag: "advance",
-            answerLabel: "Advance"
+            answerLabel: "Advanced"
         }]
       },{
         id: 3,
