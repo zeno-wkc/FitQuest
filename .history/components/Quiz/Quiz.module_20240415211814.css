@@ -105,7 +105,6 @@
 }
 .quizBtnOfQuestionOn {
   background-color: var(--orange);
-  cursor: pointer;
 }
 
 .question {
@@ -116,18 +115,6 @@
 .inputAnswer:focus {
   outline-width: 2px;
   outline-color: var(--orange);
-}
-
-.nextBtn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.nextBtn i {
-  margin-right: -10px;
-  font-size: 29px !important;
 }
 
 .finishBtn,
@@ -144,7 +131,6 @@
   font-weight: 600;
   color: var(--white);
   background-color: var(--orange);
-  cursor: pointer;
 }
 
 .answerContainer {
@@ -152,13 +138,6 @@
   display: flex;
   width: 100%;
   margin-bottom: 15px;
-}
-
-.answerContainer i {
-position: absolute;
-  right: 60px;
-  font-size: 36px;
-  top: 12px;
 }
 
 .inputRadioIcon,
@@ -184,7 +163,6 @@ position: absolute;
   border-radius: 40px;
   background-color: var(--grey);
   color: var(--white);
-  cursor: pointer;
 }
 
 .inputRadioLabel:hover,
@@ -194,6 +172,7 @@ position: absolute;
 
 .popupContainer {
   display: flex;
+  
 }
 
 .popupContent {

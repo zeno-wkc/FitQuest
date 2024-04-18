@@ -118,18 +118,6 @@
   outline-color: var(--orange);
 }
 
-.nextBtn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.nextBtn i {
-  margin-right: -10px;
-  font-size: 29px !important;
-}
-
 .finishBtn,
 .nextBtn {
   position: absolute;
@@ -152,13 +140,6 @@
   display: flex;
   width: 100%;
   margin-bottom: 15px;
-}
-
-.answerContainer i {
-position: absolute;
-  right: 60px;
-  font-size: 36px;
-  top: 12px;
 }
 
 .inputRadioIcon,
@@ -194,6 +175,7 @@ position: absolute;
 
 .popupContainer {
   display: flex;
+  
 }
 
 .popupContent {

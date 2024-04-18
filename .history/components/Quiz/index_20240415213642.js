@@ -162,7 +162,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer") === k.answerTag}
                               onChange={() => handleAnswer("Answer", k.answerTag)}
                             />
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i class="icon-Group-164"></i>)}</label>
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
                           </div>
                         ))}
                       </>
@@ -180,7 +180,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer" + k.answerId)}
                               onChange={() => handleAnswer("Answer" + k.answerId, !getAnswer("Answer" + k.answerId))}
                             />
-                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
+                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} <i class="icon-Group-164"></i></label>
                           </div>
                         ))}
                       </>
@@ -191,8 +191,8 @@ export default function Question({setShowResult, setFinalAnswers}) {
               })()}
             </form>
             <div>
-              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>NEXT <i class="icon-Group-165"></i></button>) }
-              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>FINISH <i class="icon-Group-165"></i></button>) }
+              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>Next <i class="icon-Group-165"></i></button>) }
+              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>Finish <i class="icon-Group-165"></i></button>) }
             </div>
           </div>
         </div>

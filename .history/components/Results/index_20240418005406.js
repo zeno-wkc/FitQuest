@@ -7,13 +7,15 @@ import Link from "next/link";
 export default function Result({finalAnswers}) {
   const obj = Object.values(finalAnswers[4]);
   const videoFilter = videoInventory;
+  console.log(`List : ${obj[0]}, ${obj[1]}, ${obj[2]},${obj[3]}, ${obj[4]}`);
   const filterVideo = videoInventory
   .filter((item) => {return item.tag.includes(`${finalAnswers[1].Answer}`)})
   .filter((item) => {return item.tag.includes(`${finalAnswers[2].Answer}`)})
   .filter((item) => {return item.tag.includes(`${finalAnswers[3].Answer}`)})
   .filter((item) => {if (obj[0] !== undefined) { return item.tag.includes(`${obj[0]}`) || item.tag.includes(`${obj[1]}`) || item.tag.includes(`${obj[2]}`) || item.tag.includes(`${obj[3]}`) || item.tag.includes(`${obj[4]}`)}});
-
+  
   console.log('result: ', filterVideo);
+  // console.log(typeof filterVideo);
 
   return (
     <>

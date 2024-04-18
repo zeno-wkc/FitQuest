@@ -27,6 +27,7 @@
 .imgContainer:after {
   content: '';
   width: 100vw;
+  height: 100vh;
   display: block;
   position: absolute;
   top: 0;
@@ -94,7 +95,6 @@
   font-weight: 600;
   color: var(--white);
   background-color: var(--orange);
-  cursor: pointer;
 }
 
 .startButton i {

@@ -78,7 +78,6 @@
   font-weight: 600;
   color: var(--white);
   background-color: var(--orange);
-  cursor: pointer;
 }
 
 .startButton i {

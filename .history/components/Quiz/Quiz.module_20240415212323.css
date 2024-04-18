@@ -154,13 +154,6 @@
   margin-bottom: 15px;
 }
 
-.answerContainer i {
-position: absolute;
-  right: 60px;
-  font-size: 36px;
-  top: 12px;
-}
-
 .inputRadioIcon,
 .inputCheckboxIcon {
   position: absolute;

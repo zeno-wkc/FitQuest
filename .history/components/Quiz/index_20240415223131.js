@@ -162,7 +162,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer") === k.answerTag}
                               onChange={() => handleAnswer("Answer", k.answerTag)}
                             />
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i class="icon-Group-164"></i>)}</label>
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<Link title="this is example"><i class="icon-Group-164"></i></Link>)}</label>
                           </div>
                         ))}
                       </>

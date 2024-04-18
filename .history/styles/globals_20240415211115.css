@@ -30,11 +30,11 @@ a {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../public/fonts/icomoon.eot?7sxqgw');
-  src:  url('../public/fonts/icomoon.eot?7sxqgw#iefix') format('embedded-opentype'),
-    url('../public/fonts/icomoon.ttf?7sxqgw') format('truetype'),
-    url('../public/fonts/icomoon.woff?7sxqgw') format('woff'),
-    url('../public/fonts/icomoon.svg?7sxqgw#icomoon') format('svg');
+  src:  url('../public/fonts/icomoon.eot?lbery7');
+  src:  url('../public/fonts/icomoon.eot?lbery7#iefix') format('embedded-opentype'),
+    url('../public/fonts/icomoon.ttf?lbery7') format('truetype'),
+    url('../public/fonts/icomoon.woff?lbery7') format('woff'),
+    url('../public/fonts/icomoon.svg?lbery7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -114,8 +114,4 @@ i {
 
 .icon-Group-166:before {
   content: "\e90f";
-}
-
-.icon-Group-164:before {
-  content: "\e910";
 }
