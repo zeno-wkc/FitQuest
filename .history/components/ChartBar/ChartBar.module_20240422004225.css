@@ -1,0 +1,20 @@
+.chartBarContainer {
+  background-color: var(--white);
+}
+
+.chartBarContainer h3 {
+  padding: 15px 0;
+  color: var(--black);
+}
+
+.chartBarContentContainer {
+  
+}
+
+.chartBarContainer p {
+  color: var(--black);
+}
+
+.chartBarContainer p span {
+  font-size: 30px;
+}

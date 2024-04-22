@@ -1,0 +1,43 @@
+.videoCardContainer {
+  height: 100%; 
+  padding: 0 20px 30px; 
+  background-color: var(--black);
+}
+
+.pageTitle {
+  padding: 20px 0; 
+  color: var(--white);
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.videoCardItems {
+  position: relative;
+  padding: 15px;
+}
+
+.imageItem {
+  width: 100%;
+}
+
+.videoTitle {
+  margin: 10px 0;
+  font-size: 14px; 
+  color: var(--white); 
+  text-transform: lowercase;
+}
+
+.videoTitle::first-letter {
+  text-transform: uppercase;
+}
+
+.linkage {
+  text-decoration: none;
+}
+
+.videoContentContainer { 
+  position: absolute;
+  bottom: 0;
+}

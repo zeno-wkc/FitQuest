@@ -1,0 +1,9 @@
+.topBarContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.fitquestLogoImg {
+  width: 100%;
+  height: 60px;
+}

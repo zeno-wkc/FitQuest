@@ -1,0 +1,13 @@
+.topBarContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--grey);
+}
+
+.fitquestLogoContainer {
+  width: 50%;
+}
+
+.fitquestLogoImg {
+  width: 100px;
+}

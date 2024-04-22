@@ -1,0 +1,28 @@
+.topBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  height: 60px;
+  background-color: var(--grey);
+}
+
+.fitquestLogoContainer {
+  width: 100%;
+}
+
+.fitquestLogoImg {
+  width: 100%;
+  height: 36px;
+}
+
+.alertBtnLink{
+  display: inline-block;
+  color: var(--white);
+}
+
+.topBarBtn i {
+  font-size: 45px;
+  color: var(--white);
+}
