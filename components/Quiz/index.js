@@ -113,7 +113,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
       {!isFinished && (<>
       <div className={styles.quizContainer}>
         <div className={styles.bannerContainer}>
-          <Image className={styles.imgBanner} src="/background-quiz.jpg" width={1295} height={648} alt="homepage background" />
+          <Image className={styles.imgBanner} src="/background-quiz.jpg" width={1295} height={648} alt="quiz background" priority={true} />
           { currentQuestion != 0 && ( <button className={styles.prevQuestionBtn} onClick={() => handleSelectQuestion('prev')}>&#60; Quiz</button>) }
           { currentQuestion === 0 && ( <h2>Quiz</h2> ) }
         </div>
@@ -162,7 +162,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer") === k.answerTag}
                               onChange={() => handleAnswer("Answer", k.answerTag)}
                             />
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i class="icon-Group-164"></i>)}</label>
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
                           </div>
                         ))}
                       </>
@@ -191,8 +191,8 @@ export default function Question({setShowResult, setFinalAnswers}) {
               })()}
             </form>
             <div>
-              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>NEXT <i class="icon-Group-165"></i></button>) }
-              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>FINISH <i class="icon-Group-165"></i></button>) }
+              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>NEXT <i className="icon-Group-165"></i></button>) }
+              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>FINISH <i className="icon-Group-165"></i></button>) }
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
         <div className={`${styles.popupContainer} ${styles.overlay}`}>
           <div className={styles.popupContent}>
             <p>Please fill in all answers before proceeding.</p>
-            <button className={styles.closeBtn} onClick={handleClosePopup}>Close</button>
+            <button className={styles.closeBtn} onClick={handleClosePopup}>Close <i className="icon-Group-165"></i></button>
           </div>
         </div>
       )}</>)}

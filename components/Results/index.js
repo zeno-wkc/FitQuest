@@ -29,7 +29,6 @@ export default function Result({finalAnswers}) {
     <>
       <TopBar />
       <div className={styles.videoCardContainer}>
-        <div>
         {(() => {
           switch (level) {
             case 'beginner':
@@ -65,14 +64,14 @@ export default function Result({finalAnswers}) {
             default:
               return null;
           }
-        })()}</div>
+        })()}
         <h2 className={styles.pageTitle}>Recommanded Videos</h2>
-        <div className={styles.resultVideoContainer}>
-          {
+
+          { 
             filterVideo.map((item, key) => (
               <>
-                <Link key={key} className={styles.linkage} href={item.videoURL}>
-                  <div className={styles.videoCardItems}>
+                <Link className={styles.linkage} href={item.videoURL}>
+                  <div key={`video${key}`} className={styles.videoCardItems}>
                     <div className={styles.imageContainer}>
                       <img className={styles.imageItem} src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
                     </div>
@@ -90,7 +89,6 @@ export default function Result({finalAnswers}) {
               </>
             ))
           }
-        </div>
       </div>
       <BottomBar />
     </>

@@ -123,6 +123,7 @@
   outline-color: var(--orange);
 }
 
+.finishBtn,
 .nextBtn {
   display: flex;
   flex-direction: row;
@@ -130,6 +131,7 @@
   align-items: center;
 }
 
+.finishBtn i,
 .nextBtn i {
   margin-right: -10px;
   font-size: 29px !important;
@@ -241,6 +243,10 @@ position: absolute;
 }
 
 .popupContent .closeBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 200px;
   padding: 15px 20px;
@@ -254,6 +260,11 @@ position: absolute;
   color: var(--white);
   background-color: var(--orange);
   cursor: pointer;
+}
+
+.popupContent .closeBtn i {
+  margin-right: -10px;
+  font-size: 29px !important;
 }
 
 .popupContent .closeBtn:hover {
