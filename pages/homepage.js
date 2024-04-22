@@ -5,7 +5,6 @@ import BottomBar from "@/components/BottomBar";
 import TopBar from "@/components/TopBar";
 import HomeNutritonTips from "@/components/HomeNutritonTips";
 import HomeFitnessStatistics from "@/components/HomeFitnessStatistics";
-import ChartBar from "@/components/ChartBar";
 import Weather from "@/components/Weather";
 
 export default function Home() {
