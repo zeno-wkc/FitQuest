@@ -2,7 +2,7 @@ import styles from "./Quiz.module.css";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { inventory } from "@/data/inventory";
-import Result from "../Results";
+import Result from "@/components/Results";
 
 export default function Question({setShowResult, setFinalAnswers}) {
   const [currentQuestion, setCurrentQuestion] = useState(0);

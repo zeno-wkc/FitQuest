@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <div className={styles.contentContainer}>
-          <i class="icon-Group-150"></i>
+          <i className="icon-Group-150"></i>
           <div className={styles.imgContainer}>
             <Image className={styles.imgHomeBackground} src="/background-home.jpg" width={5840} height={2560} alt="homepage background" />
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
           <div className={styles.imglogoContainer}><Image className={styles.imglogo} src="/FitQuest-logo.png" width={1713} height={430} alt="homepage background" />
           </div>
           <p>Your Perfect Home Workout Companion!</p>
-          <Link href="/quiz"><button className={styles.startButton}>GET STARTED <i class="icon-Group-165"></i></button></Link>
+          <Link href="/quiz"><button className={styles.startButton}>GET STARTED <i className="icon-Group-165"></i></button></Link>
           <p>Already have account? <span>Sign up</span></p>
           </div>
         </div>

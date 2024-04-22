@@ -20,13 +20,12 @@ export default function Weather() {
       })
   }, [])
 
+
   return (
     <>
       <div className={`${styles.WeatherCardContainer}`}>
         {(() => {
-          console.log(data[0]);
           const celsusConvert = (fahrenheit) => { return ((fahrenheit - 32) * 5/9).toFixed(1) + `°C` };
-
           return(
             <>
               <div className={styles.temp} key="1">

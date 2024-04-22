@@ -37,7 +37,7 @@ export default function quiz() {
             <p>Before finish setting up your account, please answer 5 simple questions about your workout habits to receive personalized workout video recommendations that suit you perfectly. </p>
             <p>Let's find the videos suitable for you and get started on your fitness journey today!</p>
           </div>
-          <button className={styles.startButton} onClick={() => {setShowQuiz(true); setShowDesc(false);}}>START QUIZ <i class="icon-Group-165"></i></button>
+          <button className={styles.startButton} onClick={() => {setShowQuiz(true); setShowDesc(false);}}>START QUIZ <i className="icon-Group-165"></i></button>
         </div>
       </div>)}
       {(showQuiz && !showResult) && (
