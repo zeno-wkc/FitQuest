@@ -19,7 +19,7 @@ export default function Homepage() {
       </Head>
       <TopBar />
       <main className={`${styles.mainContainer}`}>
-        <Weather />
+        {/* <Weather /> */}
         <HomeFitnessStatistics />
         <HomeNutritonTips />
       </main>
