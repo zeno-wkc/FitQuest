@@ -6,7 +6,6 @@ import BottomBar from "@/components/BottomBar";
 import TopBar from "@/components/TopBar";
 import HomeNutritonTips from "@/components/HomeNutritonTips";
 import HomeFitnessStatistics from "@/components/HomeFitnessStatistics";
-import Weather from "@/components/Weather";
 
 export default function Homepage() {
   return (
@@ -19,7 +18,6 @@ export default function Homepage() {
       </Head>
       <TopBar />
       <main className={`${styles.mainContainer}`}>
-        {/* <Weather /> */}
         <HomeFitnessStatistics />
         <HomeNutritonTips />
       </main>
