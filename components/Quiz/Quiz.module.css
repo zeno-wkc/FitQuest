@@ -208,7 +208,7 @@ position: absolute;
 
 .inputRadioIcon:checked + .inputRadioLabel,
 .inputCheckboxIcon:checked + .inputCheckboxLabel {
-  background-color: var(--orange);
+  background-color: var(--black);
 }
 
 .inputRadioLabel,
