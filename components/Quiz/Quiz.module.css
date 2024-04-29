@@ -202,6 +202,7 @@ position: absolute;
   margin: 0 !important;
   margin-right: 20px !important;
   width: 13px !important;
+  min-width: 13px !important;
   height: 13px !important;
   accent-color: var(--orange);
 }
