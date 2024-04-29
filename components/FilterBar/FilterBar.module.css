@@ -8,6 +8,7 @@
   align-items: center;
   gap: 15px;
   margin: 15px 0;
+  list-style: none;
 }
 
 .filterBarBtn p {
@@ -22,3 +23,4 @@
   cursor: pointer;
   background-color: var(--orange);
 }
+
