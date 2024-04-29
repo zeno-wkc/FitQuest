@@ -70,7 +70,7 @@ export default function Result({finalAnswers}) {
           { 
             filterVideo.map((item, key) => (
               <>
-                <Link className={styles.linkage} href={item.videoURL}>
+                <Link className={styles.linkage} key={`video${key}`} href={{ pathname: '/videoPage', query: { videoURL: item.videoURL }, }}>
                   <div key={`video${key}`} className={styles.videoCardItems}>
                     <div className={styles.imageContainer}>
                       <img className={styles.imageItem} src={`./image-thumbnail/${item.thumbnailLink}.jpeg`} />
