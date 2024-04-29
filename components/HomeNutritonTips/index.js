@@ -2,7 +2,6 @@ import styles from "./HomeNutritonTips.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-
 export default function HomeNutritonTips() {
   return (
     <div className={styles.homeNutritonTipsContainer}>
@@ -22,7 +21,7 @@ export default function HomeNutritonTips() {
             </div>
           </div>
         </Link>
-        <Link className={styles.cardContainerLink} href="/">
+        <Link className={styles.cardContainerLink} href="/Homepage">
           <div className={styles.cardContainer}>
             <Image className={styles.cardImage} src="/card-1.png" width={400} height={164} alt="card image background" priority={true} />
             <div className={styles.contentContainer}>

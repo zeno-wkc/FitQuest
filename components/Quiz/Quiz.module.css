@@ -151,11 +151,11 @@
 
 .finishBtn,
 .nextBtn {
-  position: absolute;
   width: 200px;
   padding: 15px 20px;
   margin-top: 50px;
-  /* bottom: 50px;
+  /*position: absolute; 
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%, -50%); */
   border: 0;
@@ -175,25 +175,32 @@
 .answerContainer {
   position: relative;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-bottom: 15px;
+  border: 0;
+  border-radius: 40px;
+  background-color: var(--grey);
 }
 
-.answerContainer i {
+/* .answerContainer i {
 position: absolute;
   right: 60px;
   font-size: 36px;
   top: 12px;
-}
+} */
 
 .inputRadioIcon,
 .inputCheckboxIcon {
   display: block;
-  position: absolute;
+  /* position: absolute;
   top: 0;
   bottom: 0;
-  right: 30px;
+  right: 30px; */
   margin: 0 !important;
+  margin-right: 20px !important;
   width: 13px !important;
   height: 13px !important;
   accent-color: var(--orange);
@@ -206,7 +213,7 @@ position: absolute;
 
 .inputRadioLabel,
 .inputCheckboxLabel {
-  width: 100%;
+  width: fit-content;
   padding: 20px 30px;
   border: 0;
   border-radius: 40px;

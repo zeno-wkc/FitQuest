@@ -154,6 +154,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                       <>
                         {questionAnswers.map((k) => (
                           <div className={styles.answerContainer} key={k.answerId}>
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
                             <input type="radio"
                               className={styles.inputRadioIcon}
                               id={k.answerTag}
@@ -162,7 +163,6 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer") === k.answerTag}
                               onChange={() => handleAnswer("Answer", k.answerTag)}
                             />
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
                           </div>
                         ))}
                       </>
@@ -172,6 +172,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                       <>
                         {questionAnswers.map((k) => (
                           <div className={styles.answerContainer} key={k.answerId}>
+                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
                             <input type="checkbox"
                               className={styles.inputCheckboxIcon}
                               id={k.answerTag}
@@ -180,7 +181,6 @@ export default function Question({setShowResult, setFinalAnswers}) {
                               checked={getAnswer("Answer" + k.answerId)}
                               onChange={() => handleAnswer("Answer" + k.answerId, !getAnswer("Answer" + k.answerId))}
                             />
-                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
                           </div>
                         ))}
                       </>
