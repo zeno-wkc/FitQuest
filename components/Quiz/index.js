@@ -190,7 +190,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                 }
               })()}
             </form>
-            <div>
+            <div className={styles.finalButtonContainer}>
               { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>NEXT <i className="icon-Group-165"></i></button>) }
               { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>FINISH <i className="icon-Group-165"></i></button>) }
             </div>

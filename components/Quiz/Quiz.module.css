@@ -117,6 +117,10 @@
   margin-bottom: 50px;
 }
 
+input[type="text"] {
+  font-size: 16px;
+}
+
 .inputAnswer
 .inputAnswer::-webkit-input-placeholder,
 .inputAnswer:-moz-placeholder,
@@ -279,4 +283,8 @@ position: absolute;
 
 .popupContent .closeBtn:hover {
   background-color: var(--orange-light); 
+}
+
+.finalButtonContainer {
+  text-align: center;
 }
