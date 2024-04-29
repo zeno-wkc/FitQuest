@@ -23,7 +23,7 @@ export default function BtmBar() {
             <h6>Home</h6>
           </div>
         </Link>
-        <Link className={styles.nutritionBtnLink} href="/">
+        <Link className={styles.nutritionBtnLink} href="/nutrition">
           <div className={`${styles.btnContainer} ${styles.bottomBarBtn}`}>
             <i className="icon-Group-160"></i>
             <h6>Nutrition</h6>

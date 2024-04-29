@@ -12,7 +12,7 @@
   color: var(--black);
 }
 
-.chartBarContentContainer {
+.chartBarContainer .chartBarContentContainer {
   padding: 0 8px;
   height: 130px;
 }

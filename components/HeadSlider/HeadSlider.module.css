@@ -1,0 +1,33 @@
+
+.imgContainer {
+  color: var(--white);
+}
+
+.imgItem{
+  width: 150px;
+  margin: 0 10px;
+  height: auto;
+  color: var(--white);
+}
+
+.headerSelector label {
+  cursor: pointer !important;
+}
+
+.headerSelector label:hover {
+  cursor: pointer;
+}
+
+.headerSelector input[type="radio" i] {
+  display: none;
+}
+
+.headerSelector label input[type="radio" i]:checked img {
+  border: 2px soild var(--orange);
+}
+
+.selectedImage {
+  width: 140px;
+  border: 5px solid var(--orange);
+  border-radius: 90px;
+}

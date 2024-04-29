@@ -7,8 +7,8 @@ export default function signIn() {
   return (
     <>
       <Head>
-        <title>FitQuest - Quiz</title>
-        <meta name="description" content="FitQuest Quiz" />
+        <title>FitQuest - Sign In</title>
+        <meta name="description" content="FitQuest - Sign In" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

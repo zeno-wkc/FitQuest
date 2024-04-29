@@ -1,24 +1,25 @@
 import Head from "next/head";
-import styles from "@/styles/accountCreate.module.css";
+import styles from "@/styles/AccountCreate.module.css";
 import Image from "next/image";
 import { useState } from  "react";
-import TopBar from "@/components/TopBar";
 import fs from 'fs';
 import path from "path";
+import TopBar from "@/components/TopBar";
+import HeadSlider from "@/components/HeadSlider";
+import UploadImgFile from "@/components/UploadImgFile";
 
 export async function getStaticProps() {
   try {
     const folderPath = path.join(process.cwd(), 'public', 'image-head');
     const filesCount  = fs.readdirSync(folderPath).length;
     return { props: { filesCount } };
-  } catch (error) {
+  } 
+  catch (error) {
     return { props: { filesCount: 0 } };
   }
 }
 
 export default function accountCreate({ filesCount }) {
-  const [count, setCount] = useState(filesCount);
-
   return (
     <>
       <Head>
@@ -29,10 +30,25 @@ export default function accountCreate({ filesCount }) {
       </Head>
       <TopBar />
       <main className={`${styles.main}`}>
-        <h1>Create your Account</h1>
-        <h1 className={styles.number}>Number of Files in image-header Folder: {count}</h1>
-        <ul>
-        </ul>
+        <h1 className={styles.titleContainer}>Create your<br />Account</h1> 
+        <div className={styles.headerSelectorArrowContainer}>
+          <Image className={styles.arrowImgItem} src="/Arrow_drop_down_big.png" width={36} height={36} alt="image head 02" />
+        </div>
+        <div className={styles.headerSelector}>
+          <HeadSlider filesCount={filesCount} />
+        </div>
+        <div className={styles.headerSelectorContentContainer}>
+          <h2>Select the avatar you like</h2>
+          <p>There are 16  avatars for you to choose,<br/> or you can upload your profile locally.</p>
+          <div className={styles.uploadZoneContainer}>
+            <i className="icon-Group-167"></i>
+          </div>
+          <UploadImgFile />
+          <h3>Upload from a Local File</h3>
+          <p>Max 5MB, Format: jpg, png</p>
+          <button className={styles.nextBtn} onClick={() => {}}>NEXT <i className="icon-Group-165"></i></button>
+        </div>
+        
       </main>
     </>
   )

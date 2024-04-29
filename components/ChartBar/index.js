@@ -1,6 +1,5 @@
 import styles from './ChartBar.module.css';
 import { Bar } from 'react-chartjs-2';
-
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -42,7 +41,7 @@ export default function ChartBar() {
         title: { display: false, text: "" }
       },
       maintainAspectRatio: false, 
-      responsive: true    
+      responsive: true,
     })
   }, []);
 

@@ -7,7 +7,9 @@
   --orange-light: #FF7C32;
   --grey: #232627;
   --grey-text: #C2C3CB;
+  --grey-icon: #B3B3B3;
   --grey-line: #D9D9D9;
+  --grey-input: #2c2c2e;
   --bluegrey: #232627;
 }
 
@@ -39,12 +41,18 @@ a:-webkit-any-link {
 }
 
 @font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
   font-family: 'icomoon';
-  src:  url('../public/fonts/icomoon.eot?7sxqgw');
-  src:  url('../public/fonts/icomoon.eot?7sxqgw#iefix') format('embedded-opentype'),
-    url('../public/fonts/icomoon.ttf?7sxqgw') format('truetype'),
-    url('../public/fonts/icomoon.woff?7sxqgw') format('woff'),
-    url('../public/fonts/icomoon.svg?7sxqgw#icomoon') format('svg');
+  src:  url('../public/fonts/icomoon.eot?pcktsh');
+  src:  url('../public/fonts/icomoon.eot?pcktsh#iefix') format('embedded-opentype'),
+    url('../public/fonts/icomoon.ttf?pcktsh') format('truetype'),
+    url('../public/fonts/icomoon.woff?pcktsh') format('woff'),
+    url('../public/fonts/icomoon.svg?pcktsh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -128,4 +136,36 @@ i {
 
 .icon-Group-164:before {
   content: "\e910";
+}
+
+.icon-Group-167:before {
+  content: "\e911";
+}
+
+.icon-Group-168:before {
+  content: "\e912";
+}
+
+.icon-Group-169:before {
+  content: "\e913";
+}
+
+.icon-Group-170:before {
+  content: "\e914";
+}
+
+.icon-Group-171:before {
+  content: "\e915";
+}
+
+.icon-Group-173:before {
+  content: "\e916";
+}
+
+.icon-Group-172:before {
+  content: "\e917";
+}
+
+.icon-Group-174:before {
+  content: "\e918";
 }
