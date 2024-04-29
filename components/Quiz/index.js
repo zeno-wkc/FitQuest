@@ -139,7 +139,6 @@ export default function Question({setShowResult, setFinalAnswers}) {
                         {questionAnswers.map((k) => (
                           <input type="number"
                             className={styles.inputAnswer}
-                            style="height:14px; width:14px;"
                             key={k.answerId}
                             id={k.answerTag}
                             name={currentQuestion}
@@ -177,6 +176,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                             <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
                             <input type="checkbox"
                               className={styles.inputCheckboxIcon}
+                              style="height:14px; width:14px;"
                               id={k.answerTag}
                               name={currentQuestion}
                               value={k.answerTag}
