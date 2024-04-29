@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@/styles/Accountcreate.module.css";
+import styles from "@/styles/AccountCreate.module.css";
 import Image from "next/image";
 import { useState } from  "react";
 import fs from 'fs';
@@ -46,7 +46,6 @@ export default function accountCreate({ filesCount }) {
           <p>Max 5MB, Format: jpg, png</p>
           <button className={styles.nextBtn} onClick={() => {}}>NEXT <i className="icon-Group-165"></i></button>
         </div>
-        
       </main>
     </>
   )
