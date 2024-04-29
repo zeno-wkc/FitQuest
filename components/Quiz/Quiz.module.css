@@ -117,6 +117,14 @@
   margin-bottom: 50px;
 }
 
+.inputAnswer
+.inputAnswer::-webkit-input-placeholder,
+.inputAnswer:-moz-placeholder,
+.inputAnswer::-moz-placeholder,
+.inputAnswer:-ms-input-placeholder {
+  font-size: 16px;
+}
+
 .inputAnswer:focus {
   outline-width: 2px;
   outline-color: var(--orange);
