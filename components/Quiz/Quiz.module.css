@@ -124,7 +124,7 @@
 
 .formContainer input[type="radio"],
 .formContainer input[type="checkbox"] {
-  min-width: 13px !important;
+  max-width: 13px !important;
 }
 
 .inputAnswer
@@ -206,9 +206,9 @@ position: absolute;
   right: 30px; */
   margin: 0 !important;
   margin-right: 20px !important;
-  width: 13px !important;
-  min-width: 13px !important;
-  height: 13px !important;
+  width: 5px !important;
+  min-width: 5px !important;
+  height: 5px !important;
   accent-color: var(--orange);
 }
 
