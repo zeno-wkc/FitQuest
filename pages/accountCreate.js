@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@/styles/AccountCreate.module.css";
+import styles from "@/styles/Accountcreate.module.css";
 import Image from "next/image";
 import { useState } from  "react";
 import fs from 'fs';
