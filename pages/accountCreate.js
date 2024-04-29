@@ -43,7 +43,6 @@ export default function accountCreate({ filesCount }) {
           <div className={styles.uploadZoneContainer}>
             <i className="icon-Group-167"></i>
           </div>
-          <UploadImgFile />
           <h3>Upload from a Local File</h3>
           <p>Max 5MB, Format: jpg, png</p>
           <button className={styles.nextBtn} onClick={() => {}}>NEXT <i className="icon-Group-165"></i></button>
