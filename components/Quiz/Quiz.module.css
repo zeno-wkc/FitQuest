@@ -175,11 +175,14 @@ position: absolute;
 
 .inputRadioIcon,
 .inputCheckboxIcon {
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 30px;
   margin: 0 !important;
+  width: 13px !important;
+  height: 13px !important;
   accent-color: var(--orange);
 }
 
