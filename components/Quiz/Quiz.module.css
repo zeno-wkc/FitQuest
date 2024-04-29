@@ -195,8 +195,8 @@ position: absolute;
 .inputRadioIcon,
 .inputCheckboxIcon {
   display: block;
-  /* position: absolute;
-  top: 0;
+  position: absolute;
+  /* top: 0;
   bottom: 0;
   right: 30px; */
   margin: 0 !important;
@@ -213,7 +213,7 @@ position: absolute;
 
 .inputRadioLabel,
 .inputCheckboxLabel {
-  width: fit-content;
+  width: 100%;
   padding: 20px 30px;
   border: 0;
   border-radius: 40px;
