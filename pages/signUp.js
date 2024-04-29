@@ -9,7 +9,7 @@ export default function signUp() {
       <Head>
         <title>FitQuest - Sign Up</title>
         <meta name="description" content="FitQuest Sign Up" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
