@@ -157,7 +157,6 @@ export default function Question({setShowResult, setFinalAnswers}) {
                             <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
                             <input type="radio"
                               className={styles.inputRadioIcon}
-                              style="height:14px; width:14px;"
                               id={k.answerTag}
                               name={currentQuestion}
                               value={k.answerTag}
@@ -176,7 +175,6 @@ export default function Question({setShowResult, setFinalAnswers}) {
                             <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
                             <input type="checkbox"
                               className={styles.inputCheckboxIcon}
-                              style="height:14px; width:14px;"
                               id={k.answerTag}
                               name={currentQuestion}
                               value={k.answerTag}
