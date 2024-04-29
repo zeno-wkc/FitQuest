@@ -122,6 +122,11 @@
   font-size: 16px;
 }
 
+.formContainer input[type="radio"],
+.formContainer input[type="checkbox"] {
+  min-width: 13px !important;
+}
+
 .inputAnswer
 .inputAnswer::-webkit-input-placeholder,
 .inputAnswer:-moz-placeholder,
