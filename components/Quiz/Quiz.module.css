@@ -211,6 +211,10 @@ position: absolute;
   accent-color: var(--black);
 }
 
+.inputCheckboxIcon {
+  accent-color: var(--orange);
+}
+
 .inputRadioIcon:checked + .inputRadioLabel,
 .inputCheckboxIcon:checked + .inputCheckboxLabel {
   background-color: var(--black);
