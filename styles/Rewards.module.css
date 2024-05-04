@@ -1,0 +1,140 @@
+.main{
+    height:100vh;
+}
+
+.rewardsContainer{
+    position: relative;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.rewardsTitle{
+    color: var(--white);
+    padding: 20px 0;
+}
+
+.rewardsItems{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardImage{
+    border-radius: 16px;
+}
+
+.rewardsItemsDetails{
+    padding: 0 0 0 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.rewardsItemsDetails h3{
+    color: var(--white);
+}
+
+.rewardsItemsDetails p{
+    color: var(--orange);
+}
+
+.redeemButton{
+width: 98px;
+height: 37px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border: 0;
+border-radius: 50px;
+font-size: 14px;
+font-weight: 600;
+color: var(--white);
+background-color: var(--orange);
+cursor: pointer;
+}
+
+.redeemButton i {
+    margin-right: -10px;
+    font-size: 29px !important;
+}
+
+.achievementsContainer{
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.achievementsTitle {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achievementsTitle p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.BadgesContainer p{
+    color: var(--white);
+    font-size:11px;
+    text-align: center;
+}
+
+.BadgesContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.Badges{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    height:auto;
+    gap:5px;
+}
+
+.Badges span{
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.weightContainer{
+    color: var(--white);
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.weight{
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.historyContainer{
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.historyTitle {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.historyTitle p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
