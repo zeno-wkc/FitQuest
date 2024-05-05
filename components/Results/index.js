@@ -82,7 +82,6 @@ export default function Result({finalAnswers, dir}) {
           }
         })()}
         <h2 className={styles.pageTitle}>{pageTitle}</h2>
-
           { 
             filterVideo.map((item, key) => (
               <>

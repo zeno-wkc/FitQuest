@@ -8,6 +8,12 @@
   overflow-y: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .mobileContainer {
+    margin: auto;
+  }
+}
+
 .main{
   background-color: var(--black-bg);
   padding-bottom: 50px;

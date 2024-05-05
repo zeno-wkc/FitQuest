@@ -17,7 +17,7 @@
     "id": 2,
     "videoName": "Back Pain Relief Stretches | 10 min. Yoga for Relaxation & Recovery",
     "videoURL": "https://www.youtube.com/embed/2eA2Koq6pTI?si=trhOvXBn3uu6z3KV",
-    "thumbnailLink": "Back Pain Relief Stretches-10 min",
+    "thumbnailLink": "Back-Pain-Relief-Stretches-10-min",
     "videoTime": "11:48",
     "tag": [
       "beginner",
@@ -54,7 +54,7 @@
     "id": 4,
     "videoName": "10 MIN BEGINNER UPPER BODY WORKOUT | Arms, Back & Chest | Eylem Abaci",
     "videoURL": "https://www.youtube.com/embed/RBmWdR74KuY?si=XY-k83wuflxdbPhS",
-    "thumbnailLink": "10 MIN BEGINNER UPPER BODY WORKOUT",
+    "thumbnailLink": "10-MIN-BEGINNER-UPPER-BODY-WORKOUT",
     "videoTime": "10:16",
     "tag": [
       "beginner",
@@ -74,7 +74,7 @@
     "id": 5,
     "videoName": "10 MIN BEGINNER LOWER ABS (No Equipment, No Repeats)",
     "videoURL": "https://www.youtube.com/embed/EG2JSMM7xrQ?si=CPkEZaShmJ7CVNSy",
-    "thumbnailLink": "10 MIN BEGINNER LOWER ABS",
+    "thumbnailLink": "10-MIN-BEGINNER-LOWER-ABS",
     "videoTime": "12:16",
     "tag": [
       "beginner",
@@ -111,7 +111,7 @@
     "id": 7,
     "videoName": "12 Min STANDING FAT BURN | No Jumping",
     "videoURL": "https://www.youtube.com/embed/ycjI5Zt5J9Y?si=bY3tVLYGHnVoSIzE",
-    "thumbnailLink": "12 Min Standing Fat Burn",
+    "thumbnailLink": "12-Min-Standing-Fat-Burn",
     "videoTime": "12:22",
     "tag": [
       "beginner",
@@ -227,7 +227,7 @@
     "id": 13,
     "videoName": "BEGINNER FRIENDLY ABS FAT BURN Toned & Flat Stomach",
     "videoURL": "https://www.youtube.com/embed/9Ht67QM0hK0?si=1zITCtQm61W8M2zG",
-    "thumbnailLink": "6 Min Beginner ABS ",
+    "thumbnailLink": "6-Min-Beginner-ABS",
     "videoTime": "5:41",
     "tag": [
       "beginner",
@@ -372,6 +372,7 @@
     "id": 21,
     "videoName": "30-Minute BACK-FRIENDLY STANDING WORKOUT",
     "videoURL": "https://www.youtube.com/embed/582hyw9IP2o?si=OEuQjH9Xyja3ROgp",
+    "thumbnailLink": "Back-friendly Standing Workout",
     "videoTime": "29:28",
     "tag": [
       "intermediator",

@@ -4,8 +4,8 @@ import styles from "@/styles/Homepage.module.css";
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
 import { FormattedMessage, useIntl } from "react-intl";
-import BottomBar from "@/components/BottomBar";
 import TopBar from "@/components/TopBar";
+import BottomBar from "@/components/BottomBar";
 import HomeNutritonTips from "@/components/HomeNutritonTips";
 import HomeFitnessStatistics from "@/components/HomeFitnessStatistics";
 

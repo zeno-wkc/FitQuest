@@ -15,7 +15,7 @@ export default function BtmBar() {
   return (
     <>
       <div className={styles.bottomBarContainer}>
-        <Link className={styles.workoutBtnLink} href="/">
+        <Link className={styles.workoutBtnLink} href="/workout">
           <div className={`${styles.btnContainer} ${styles.bottomBarBtn}`}>
             <i className="icon-Group-163"></i>
             <h6>{workout}</h6>

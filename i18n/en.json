@@ -126,5 +126,9 @@
   "page.homeNutritonTips.title": "Nutriton Tips",
   "page.homeNutritonTips.description": "Nutrition Article",
   "page.homeNutritonTips.article01.title": "Adding protein to your salads",
-  "page.homeNutritonTips.article02.title": "How to properly track calories"
+  "page.homeNutritonTips.article02.title": "How to properly track calories",
+  "_comment15": "workout page",
+  "page.workout.head.title": "FitQuest - Workout Videos",
+  "page.workout.head.meta.description": "FitQuest Workout Videos",
+  "page.workout.title": "Workout Videos"
 }
