@@ -225,10 +225,10 @@
   },
   {
     "id": 13,
-    "videoName": "BEGINNER FRIENDLY ABS FAT BURN Toned & Flat Stomach",
-    "videoURL": "https://www.youtube.com/embed/9Ht67QM0hK0?si=1zITCtQm61W8M2zG",
-    "thumbnailLink": "6 Min Beginner ABS",
-    "videoTime": "5:41",
+    "videoName": "10 MIN SIXPACK WORKOUT- BEGINNER TO MEDIUM LEVEL",
+    "videoURL": "https://www.youtube.com/watch?v=MmNbGJS57U8&ab_channel=PamelaReif",
+    "thumbnailLink": "10 Min Sixpack",
+    "videoTime": "10:33",
     "tag": [
       "beginner",
       "intermediator",
@@ -371,7 +371,7 @@
   {
     "id": 21,
     "videoName": "30-Minute BACK-FRIENDLY STANDING WORKOUT",
-    "videoURL": "https://www.youtube.com/embed/582hyw9IP2o?si=OEuQjH9Xyja3ROgp",
+    "videoURL": "https://www.youtube.com/watch?v=582hyw9IP2o&ab_channel=BrianSyuki-FocusFitness",
     "thumbnailLink": "Back-friendly Standing Workout",
     "videoTime": "29:28",
     "tag": [
@@ -904,45 +904,5 @@
       "kneePain",
       "all"
     ]
-  },
-  {
-    "id": 51,
-    "videoName": "10-Minute Quick Core Workout",
-    "videoURL": "https://www.youtube.com/embed/dNEZKqopc2I?si=f2OtspaNO9zMRR6P",
-    "thumbnailLink": "10-Minute Quick Core Workout",
-    "videoTime": "12:32",
-    "tag": [
-      "beginner",
-      "loseWeight",
-      "gainMuscles",
-      "balance",
-      "coreBody",
-      "neckPain",
-      "shoulderPain",
-      "kneePain",
-      "backPain",
-      "all"
-    ]
-  },
-  {
-    "id": 52,
-    "videoName": "5 Simple Home Exercises To Strengthen Your Core",
-    "videoURL": "https://www.youtube.com/embed/dNEZKqopc2I?si=f2OtspaNO9zMRR6P",
-    "thumbnailLink": "5 Simple Home Exercises To Strengthen Your Core",
-    "videoTime": "7:25",
-    "tag": [
-      "beginner",
-      "loseWeight",
-      "gainMuscles",
-      "balance",
-      "coreBody",
-      "neckPain",
-      "shoulderPain",
-      "kneePain",
-      "backPain",
-      "all"
-    ]
   }
 ]
-
-
