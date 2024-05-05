@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 5px;
+  padding: 0 15px;
   background-color: var(--grey);
   -webkit-box-shadow: 0px 2px 6px 0px rgba(18,18,18,0.5);
   -moz-box-shadow: 0px 2px 6px 0px rgba(18,18,18,0.5);
@@ -15,6 +15,7 @@
 }
 
 .fitquestLogoContainer {
+  margin-left: 51px;
   width: 144px;
 }
 
@@ -32,17 +33,51 @@
   color: var(--orange-light);
 }
 
-/* .btnContainer {
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  transform: translate(0, -50%);
-} */
-
 .backBtnLink .topBarBtn i {
   font-size: 36px;
 }
 
 .topBarBtn i {
   font-size: 45px;
+}
+
+.languageDropdown {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.languageDropdown {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.languageDropdown:hover i {
+  color: var(--orange-light);
+}
+
+.languageDropdown .btnContainer {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 55px;
+  padding: 7px;
+  color: var(--white);
+}
+
+.languageMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 7px;
+  width: 100px;
+  background: var(--black);
+}
+
+.languageMenu > a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
 }

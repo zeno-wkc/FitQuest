@@ -41,3 +41,35 @@
 .topBarBtn i {
   font-size: 45px;
 }
+
+.languageDropdown {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.languageDropdown:hover i {
+  color: var(--orange-light);
+}
+
+.languageDropdown .btnContainer {
+  right: 55px;
+  padding: 7px;
+  color: var(--white);
+}
+
+.languageMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 7px;
+  width: 100px;
+  background: var(--black);
+}
+
+.languageMenu > a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+}

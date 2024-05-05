@@ -10,6 +10,8 @@ import {
     Legend
 } from 'chart.js';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import { FormattedMessage, useIntl } from "react-intl";
 
 ChartJS.register(
   CategoryScale,
@@ -21,6 +23,10 @@ ChartJS.register(
 )
 
 export default function ChartBar() {
+  const { locales } = useRouter();
+  const intl = useIntl();
+  const calories = intl.formatMessage({ id: 'page.chart.calories' });
+
   const [chartData, setChartData] = useState({ datasets: [] });
   const [chartOptions, setChartOptions] = useState({})
 
@@ -47,7 +53,7 @@ export default function ChartBar() {
 
   return (
     <div className={styles.chartBarContainer}>
-      <h3>Calories Burnt</h3>
+      <h3>{calories}</h3>
       <div className={styles.chartBarContentContainer}>
         <Bar data={chartData} options={chartOptions} />
       </div>

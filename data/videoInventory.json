@@ -34,7 +34,7 @@
   {
     "id": 3,
     "videoName": "10 Min Upper Body & Arms Workout | Beginner Friendly No Equipment",
-    "videoURL": "https://www.youtube.com/watch?v=7L-Td_p0bXE&ab_channel=ChloeTing",
+    "videoURL": "https://www.youtube.com/embed/7L-Td_p0bXE?si=VahrYkmmilJaq2KF",
     "thumbnailLink": "10 Min Upper Body & Arms Workout",
     "videoTime": "10:49",
     "tag": [
@@ -52,10 +52,10 @@
   },
   {
     "id": 4,
-    "videoName": "10 MIN UPPER BODY WORKOUT - for toned arms, chest & back muscles",
-    "videoURL": "https://www.youtube.com/watch?v=eBnSe3CIPn4&ab_channel=PamelaReif",
-    "thumbnailLink": "10 Min Upperbody Workout Pamela Reif",
-    "videoTime": "10:27",
+    "videoName": "10 MIN BEGINNER UPPER BODY WORKOUT | Arms, Back & Chest | Eylem Abaci",
+    "videoURL": "https://www.youtube.com/embed/RBmWdR74KuY?si=XY-k83wuflxdbPhS",
+    "thumbnailLink": "10 MIN BEGINNER UPPER BODY WORKOUT",
+    "videoTime": "10:16",
     "tag": [
       "beginner",
       "loseWeight",
@@ -72,10 +72,10 @@
   },
   {
     "id": 5,
-    "videoName": "10 MIN LOWER AB WORKOUT - Beginner, with Medium Options",
-    "videoURL": "https://www.youtube.com/watch?v=WJcA-yAvgP8&ab_channel=PamelaReif",
-    "thumbnailLink": "10 Min Lower Ab Workout",
-    "videoTime": "10:36",
+    "videoName": "10 MIN BEGINNER LOWER ABS (No Equipment, No Repeats)",
+    "videoURL": "https://www.youtube.com/embed/EG2JSMM7xrQ?si=CPkEZaShmJ7CVNSy",
+    "thumbnailLink": "10 MIN BEGINNER LOWER ABS",
+    "videoTime": "12:16",
     "tag": [
       "beginner",
       "loseWeight",
@@ -91,7 +91,7 @@
   {
     "id": 6,
     "videoName": "10 Minute Abs For Beginners [Daily Core Strength Workout]",
-    "videoURL": "https://www.youtube.com/watch?v=BLKZwvObX_U&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/BLKZwvObX_U?si=bSJkg7PrGDZBWKVT",
     "thumbnailLink": "10 Minute Abs For Beginners",
     "videoTime": "12:21",
     "tag": [
@@ -110,7 +110,7 @@
   {
     "id": 7,
     "videoName": "12 Min STANDING FAT BURN | No Jumping",
-    "videoURL": "https://www.youtube.com/watch?v=ycjI5Zt5J9Y&ab_channel=EleniFit",
+    "videoURL": "https://www.youtube.com/embed/ycjI5Zt5J9Y?si=bY3tVLYGHnVoSIzE",
     "thumbnailLink": "12 Min Standing Fat Burn",
     "videoTime": "12:22",
     "tag": [
@@ -130,7 +130,7 @@
   {
     "id": 8,
     "videoName": "15 Min All Standing HIIT Workout for Fat Burn",
-    "videoURL": "https://www.youtube.com/watch?v=4__mb_-VLN4&ab_channel=OliverSjostrom",
+    "videoURL": "https://www.youtube.com/embed/4__mb_-VLN4?si=YYazcTRrmzsY56n0",
     "thumbnailLink": "15 Min HIIT Workout for Fat Burn",
     "videoTime": "15:14",
     "tag": [
@@ -147,10 +147,10 @@
   },
   {
     "id": 9,
-    "videoName": "10 MIN BEGINNER LEG WORKOUT—Booty, Thighs & Hamstrings",
-    "videoURL": "https://www.youtube.com/watch?v=nG69wuXHwxg&ab_channel=PamelaReif",
-    "thumbnailLink": "10 Min Beginner Leg Workout",
-    "videoTime": "10:30",
+    "videoName": "15 MIN BEGINNER LEG WORKOUT",
+    "videoURL": "https://www.youtube.com/embed/9l5kjL2JedM?si=zk7-NeSz87Dz8fwO",
+    "thumbnailLink": "15 MIN BEGINNER LEG WORKOUT",
+    "videoTime": "16:36",
     "tag": [
       "beginner",
       "loseWeight",
@@ -168,7 +168,7 @@
   {
     "id": 10,
     "videoName": "10 MIN BOOTY PUMP WORKOUT AT HOME",
-    "videoURL": "https://www.youtube.com/watch?v=hBGfmC4SR4I&ab_channel=AllblancTV",
+    "videoURL": "https://www.youtube.com/embed/hBGfmC4SR4I?si=y7KuWfPgRiScgfMx",
     "thumbnailLink": "10 Min Booty Pump",
     "videoTime": "10:23",
     "tag": [
@@ -187,7 +187,7 @@
   {
     "id": 11,
     "videoName": "15 min Abs and Hip Workout | Pilates for Beginners",
-    "videoURL": "https://www.youtube.com/watch?v=K3GLIs6yNp4&ab_channel=FlowwithMira",
+    "videoURL": "https://www.youtube.com/embed/K3GLIs6yNp4?si=xfxQl0kNxm9-Hm6o",
     "thumbnailLink": "15 Min Abs Hip Workout",
     "videoTime": "15:40",
     "tag": [
@@ -208,7 +208,7 @@
   {
     "id": 12,
     "videoName": "20 Minute Upper Body Strength Workout",
-    "videoURL": "https://www.youtube.com/watch?v=0Yx_qbbzM0c&t=215s&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/0Yx_qbbzM0c?si=V42IOK5nRcmvETfP",
     "thumbnailLink": "20 Minute Upper Body Strength Workout",
     "videoTime": "21:08",
     "tag": [
@@ -225,10 +225,10 @@
   },
   {
     "id": 13,
-    "videoName": "10 MIN SIXPACK WORKOUT- BEGINNER TO MEDIUM LEVEL",
-    "videoURL": "https://www.youtube.com/watch?v=MmNbGJS57U8&ab_channel=PamelaReif",
-    "thumbnailLink": "10 Min Sixpack",
-    "videoTime": "10:33",
+    "videoName": "BEGINNER FRIENDLY ABS FAT BURN Toned & Flat Stomach",
+    "videoURL": "https://www.youtube.com/embed/9Ht67QM0hK0?si=1zITCtQm61W8M2zG",
+    "thumbnailLink": "6 Min Beginner ABS",
+    "videoTime": "5:41",
     "tag": [
       "beginner",
       "intermediator",
@@ -263,7 +263,7 @@
   {
     "id": 15,
     "videoName": "10min Abs Tabata l Belly Fat Burn",
-    "videoURL": "https://www.youtube.com/watch?v=CPl2DiKtvLg&ab_channel=AllblancTV",
+    "videoURL": "https://www.youtube.com/embed/CPl2DiKtvLg?si=9bQ3zZwL-e3fP7Hz",
     "thumbnailLink": "10min Abs Tabata",
     "videoTime": "10:16",
     "tag": [
@@ -281,7 +281,7 @@
   {
     "id": 16,
     "videoName": "20 Minute Pilates Workout for Lower Back Pain",
-    "videoURL": "https://www.youtube.com/watch?v=I7j4K6V8stU&ab_channel=Well%2BGood",
+    "videoURL": "https://www.youtube.com/embed/I7j4K6V8stU?si=Q2y2C1sGnlESHfX5",
     "thumbnailLink": "20 Minute Pilates Workout for Lower Back Pain",
     "videoTime": "20:04",
     "tag": [
@@ -299,7 +299,7 @@
   {
     "id": 17,
     "videoName": "Pilates Lower Back Pain Exercises - Back Pain Relief Workout",
-    "videoURL": "https://www.youtube.com/watch?v=dHaP4JC9ulM&ab_channel=FlowwithMira",
+    "videoURL": "https://www.youtube.com/embed/dHaP4JC9ulM?si=pK_QVWOdNuonWwqu",
     "thumbnailLink": "Pilates for Lower Back Pain",
     "videoTime": "29:36",
     "tag": [
@@ -317,7 +317,7 @@
   {
     "id": 18,
     "videoName": "10 Min Cardio Workout At Home",
-    "videoURL": "https://www.youtube.com/watch?v=pxegq_K6jqI&ab_channel=OliverSjostrom",
+    "videoURL": "https://www.youtube.com/embed/pxegq_K6jqI?si=DekPJJdSleBHGsKC",
     "thumbnailLink": "10 Min Cardio Workout At Home",
     "videoTime": "10:39",
     "tag": [
@@ -336,7 +336,7 @@
   {
     "id": 19,
     "videoName": "30 MIN FULL BODY STANDING PILATES WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=enW_6s3jOV0&ab_channel=growwithjo",
+    "videoURL": "https://www.youtube.com/embed/enW_6s3jOV0?si=L4wToOHrpJpHagZ8",
     "thumbnailLink": "30 Mins Full Body Pilates",
     "videoTime": "30:34",
     "tag": [
@@ -354,7 +354,7 @@
   {
     "id": 20,
     "videoName": "10 MIN FULLBODY WORKOUT AT HOME - INTERMEDIATE",
-    "videoURL": "https://www.youtube.com/watch?v=N-15wUPnqpc&ab_channel=AllblancTV",
+    "videoURL": "https://www.youtube.com/embed/N-15wUPnqpc?si=0wgUWsehW0xVDSJK",
     "thumbnailLink": "10 Min Full Body Intermediate",
     "videoTime": "10:17",
     "tag": [
@@ -371,7 +371,7 @@
   {
     "id": 21,
     "videoName": "30-Minute BACK-FRIENDLY STANDING WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=582hyw9IP2o&ab_channel=BrianSyuki-FocusFitness",
+    "videoURL": "https://www.youtube.com/embed/582hyw9IP2o?si=OEuQjH9Xyja3ROgp",
     "thumbnailLink": "Back-friendly Standing Workout",
     "videoTime": "29:28",
     "tag": [
@@ -390,7 +390,7 @@
   {
     "id": 22,
     "videoName": "20 MIN Low Impact + All Standing KNEE FRIENDLY HIIT",
-    "videoURL": "https://www.youtube.com/watch?v=OpQyhIXcpuk&ab_channel=AudreyKoomar-HomeWorkouts",
+    "videoURL": "https://www.youtube.com/embed/OpQyhIXcpuk?si=B1uAW9bkQzUhmKAy",
     "thumbnailLink": "20 Min All Standing HIIT",
     "videoTime": "20:14",
     "tag": [
@@ -410,7 +410,7 @@
   {
     "id": 23,
     "videoName": "DEEP FULL BODY STRETCH | Intermediate/Advance 30-Minutes",
-    "videoURL": "https://www.youtube.com/watch?v=Q1G2U4XfX28&ab_channel=CatMeffan",
+    "videoURL": "https://www.youtube.com/embed/Q1G2U4XfX28?si=P0fagNH7mow2pzDv",
     "thumbnailLink": "Full Body Deep Stretch 30 Mins",
     "videoTime": "32:58",
     "tag": [
@@ -428,7 +428,7 @@
   {
     "id": 24,
     "videoName": "Total Body Deep Stretches Yoga for Good Health",
-    "videoURL": "https://www.youtube.com/watch?v=NQXSJzyNfH8&ab_channel=BreatheandFlow",
+    "videoURL": "https://www.youtube.com/embed/NQXSJzyNfH8?si=93Z0JVQIi1heo5VK",
     "thumbnailLink": "Total Body Stretches",
     "videoTime": "26:30",
     "tag": [
@@ -446,7 +446,7 @@
   {
     "id": 25,
     "videoName": "30 Minute Full Body Cardio-HIIT Workout",
-    "videoURL": "https://www.youtube.com/watch?v=K44TJK9iNf8&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/K44TJK9iNf8?si=BZo4vu_-aaAL2z8Q",
     "thumbnailLink": "30 Mins Cardio x HIIT",
     "videoTime": "34:06",
     "tag": [
@@ -464,7 +464,7 @@
   {
     "id": 26,
     "videoName": "25 Minute Lower Body Dumbbel Workout",
-    "videoURL": "https://www.youtube.com/watch?v=HWSlRhGzdXU&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/HWSlRhGzdXU?si=pTQIZlsMf6gs0fP0",
     "thumbnailLink": "25 Mins Dumbbell x Legs",
     "videoTime": "34'19",
     "tag": [
@@ -481,7 +481,7 @@
   {
     "id": 27,
     "videoName": "20 Mins Standing Dumbbell Fat Burn",
-    "videoURL": "https://www.youtube.com/watch?v=YMaTxFo0Q7Q&ab_channel=MrandMrsMuscle",
+    "videoURL": "https://www.youtube.com/embed/YMaTxFo0Q7Q?si=FziN0gyZmFm0YbLM",
     "thumbnailLink": "20 Mins Standing Dumbbell Fat Burn",
     "videoTime": "21:58",
     "tag": [
@@ -503,7 +503,7 @@
   {
     "id": 28,
     "videoName": "FAT BURNING 50MIN FULLBODY WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=qS00Q5Mgkec&ab_channel=AllblancTV",
+    "videoURL": "https://www.youtube.com/embed/qS00Q5Mgkec?si=M3gJ9itYAtNcQxyq",
     "thumbnailLink": "50 Mins HITT FullBody",
     "videoTime": "49:21",
     "tag": [
@@ -520,7 +520,7 @@
   {
     "id": 29,
     "videoName": "8 MIN INTENSE ABS (No Equipment) - Total Killer Core",
-    "videoURL": "https://www.youtube.com/watch?v=HM3rDUAraV4&ab_channel=TIFFxDAN",
+    "videoURL": "https://www.youtube.com/embed/HM3rDUAraV4?si=qyQ0m4ShCMYhX9-i",
     "thumbnailLink": "8 MIN INTENSE ABS",
     "videoTime": "8:35",
     "tag": [
@@ -536,7 +536,7 @@
   {
     "id": 30,
     "videoName": "30 MIN UPPER BODY & CARDIO (Advanced) HIIT Workout",
-    "videoURL": "https://www.youtube.com/watch?v=8Xlv99EGEEQ&ab_channel=growingannanas",
+    "videoURL": "https://www.youtube.com/embed/8Xlv99EGEEQ?si=FV2XFRYpaSJKYrv1",
     "thumbnailLink": "30 Mins UpperBody Cardio",
     "videoTime": "33:23",
     "tag": [
@@ -553,7 +553,7 @@
   {
     "id": 31,
     "videoName": "Advanced Vinyasa Yoga Flow",
-    "videoURL": "https://www.youtube.com/watch?v=6LeKFE_aB4I&ab_channel=YouAligned",
+    "videoURL": "https://www.youtube.com/embed/6LeKFE_aB4I?si=ar4CK3Qbmaol2Zyn",
     "thumbnailLink": "Advanced Yoga",
     "videoTime": "35:43",
     "tag": [
@@ -571,7 +571,7 @@
   {
     "id": 32,
     "videoName": "INTENSE FULL BODY CRUSHER - HIIT WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=-YpRYNREDV8&ab_channel=growingannanas",
+    "videoURL": "https://www.youtube.com/embed/-YpRYNREDV8?si=MZIFWXG-gJq9Qprm",
     "thumbnailLink": "30 Mins Full Body HIIT",
     "videoTime": "30:38",
     "tag": [
@@ -585,7 +585,7 @@
   {
     "id": 33,
     "videoName": "30 MIN KILLER Lower Body HIIT Workout",
-    "videoURL": "https://www.youtube.com/watch?v=m2L5SMWDRV8&ab_channel=growingannanas",
+    "videoURL": "https://www.youtube.com/embed/m2L5SMWDRV8?si=tUCh9cb11WnN6nUX",
     "thumbnailLink": "30 Mins Killer Leg Day",
     "videoTime": "34:43",
     "tag": [
@@ -602,7 +602,7 @@
   {
     "id": 34,
     "videoName": "UPPER BODY BURNER | Build Muscle & Strength",
-    "videoURL": "https://www.youtube.com/watch?v=9V5TmtWWyyg&ab_channel=AlexCrockford",
+    "videoURL": "https://www.youtube.com/embed/9V5TmtWWyyg?si=t_I996I4OMvxhY3-",
     "thumbnailLink": "40 Mins UpperBody Burn",
     "videoTime": "42:12",
     "tag": [
@@ -619,7 +619,7 @@
   {
     "id": 35,
     "videoName": "20 MIN LOWER BODY WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=X0xt0fYTZv8&ab_channel=TIFFxDAN",
+    "videoURL": "https://www.youtube.com/embed/X0xt0fYTZv8?si=xkjRXJV3C_-xx63J",
     "thumbnailLink": "20 Mins Lower Body",
     "videoTime": "20:35",
     "tag": [
@@ -636,7 +636,7 @@
   {
     "id": 36,
     "videoName": "30 Minute Full Body Strength Workout",
-    "videoURL": "https://www.youtube.com/watch?v=9FBIaqr7TjQ&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/9FBIaqr7TjQ?si=_KV5JrNDv5Q0kTxV",
     "thumbnailLink": "30 Mins FullBody Strength",
     "videoTime": "34:56",
     "tag": [
@@ -654,7 +654,7 @@
   {
     "id": 37,
     "videoName": "High Intensity Full body TABATA",
-    "videoURL": "https://www.youtube.com/watch?v=PFK9eQqdmuU&ab_channel=AllblancTV",
+    "videoURL": "https://www.youtube.com/embed/PFK9eQqdmuU?si=Qbf1ZnFsQ1jd8f9y",
     "thumbnailLink": "20 Mins High Intensity Full Body",
     "videoTime": "19:29",
     "tag": [
@@ -672,7 +672,7 @@
   {
     "id": 38,
     "videoName": "UPPER BODY (PUSH & PULL) to BUILD MUSCLE",
-    "videoURL": "https://www.youtube.com/watch?v=aq6uN_bMEEE&ab_channel=AlexCrockford",
+    "videoURL": "https://www.youtube.com/embed/aq6uN_bMEEE?si=Pn5atK2CKQ-xTjHi",
     "thumbnailLink": "30 Mins Upper Boday Muscle",
     "videoTime": "31:06",
     "tag": [
@@ -689,7 +689,7 @@
   {
     "id": 39,
     "videoName": "10 Minute High Intensity Abs/Core Workout",
-    "videoURL": "https://www.youtube.com/watch?v=g2jocInockU&ab_channel=Juice%26Toya",
+    "videoURL": "https://www.youtube.com/embed/g2jocInockU?si=GSqYoWcmBvLJqYXf",
     "thumbnailLink": "10 Mins High Intensity Abs Workout",
     "videoTime": "10:41",
     "tag": [
@@ -707,7 +707,7 @@
   {
     "id": 40,
     "videoName": "Boost Recovery with Full Body Stretch Yoga for Athletes",
-    "videoURL": "https://www.youtube.com/watch?v=wCUI1bwlJqA&ab_channel=BreatheandFlow",
+    "videoURL": "https://www.youtube.com/embed/wCUI1bwlJqA?si=1g-wILfXl7chYRD5",
     "thumbnailLink": "Boost Recovery Full Body",
     "videoTime": "33:24",
     "tag": [
@@ -724,7 +724,7 @@
   {
     "id": 41,
     "videoName": "30 minute fat burning home workout for beginners",
-    "videoURL": "https://www.youtube.com/watch?v=gC_L9qAHVJ8&ab_channel=BodyProject",
+    "videoURL": "https://www.youtube.com/embed/gC_L9qAHVJ8?si=Z71pn_qLgmNF8-CV",
     "thumbnailLink": "Low impact Beginner Workout",
     "videoTime": "29'11",
     "tag": [
@@ -744,7 +744,7 @@
   {
     "id": 42,
     "videoName": "Low impact, high intensity intermediate home cardio workout",
-    "videoURL": "https://www.youtube.com/watch?v=Ba3qZjzPonI&ab_channel=BodyProject",
+    "videoURL": "https://www.youtube.com/embed/Ba3qZjzPonI?si=H4uM19w0INACrZml",
     "thumbnailLink": "High intensity intermediate home cardio workout",
     "videoTime": "31:37",
     "tag": [
@@ -763,7 +763,7 @@
   {
     "id": 43,
     "videoName": "FUN cardio workout to music! ALL fitness levels.",
-    "videoURL": "https://www.youtube.com/watch?v=pHTBWOpRHMY&ab_channel=BodyProject",
+    "videoURL": "https://www.youtube.com/embed/pHTBWOpRHMY?si=5atu725XiLX-BwH5",
     "thumbnailLink": "FUN cardio workout",
     "videoTime": "30:36",
     "tag": [
@@ -784,7 +784,7 @@
   {
     "id": 44,
     "videoName": "10 MIN ADVANCED AB WORKOUT",
-    "videoURL": "https://www.youtube.com/watch?v=UIy3_bO6pX8&ab_channel=TRAINWITHGAINSBYBRAINS",
+    "videoURL": "https://www.youtube.com/embed/UIy3_bO6pX8?si=l1oOEl9IDyEAqtGA",
     "thumbnailLink": "10 Mins Abs Female",
     "videoTime": "10:23",
     "tag": [
@@ -801,7 +801,7 @@
   {
     "id": 45,
     "videoName": "45 Min DUMBBELL LEG WORKOUT at Home",
-    "videoURL": "https://www.youtube.com/watch?v=DENm10PI8Xc&ab_channel=CarolineGirvan",
+    "videoURL": "https://www.youtube.com/embed/DENm10PI8Xc?si=i4RvLiNihVK8E4l2",
     "thumbnailLink": "Advanced Leg Workout Dumbbell",
     "videoTime": "45:10",
     "tag": [
@@ -818,7 +818,7 @@
   {
     "id": 46,
     "videoName": "THE BEST AT HOME BOOTY WORKOUT (No Equipment, 20 mins)",
-    "videoURL": "https://www.youtube.com/watch?v=5KYAVG7BWAU&ab_channel=MadFit",
+    "videoURL": "https://www.youtube.com/embed/5KYAVG7BWAU?si=tE0brgNUI8DyFOEl",
     "thumbnailLink": "20 Mins Booty",
     "videoTime": "22:05",
     "tag": [
@@ -835,7 +835,7 @@
   {
     "id": 47,
     "videoName": "30 MIN FULL UPPER BODY Workout",
-    "videoURL": "https://www.youtube.com/watch?v=WGA_ctAMkMk&ab_channel=growingannanas",
+    "videoURL": "https://www.youtube.com/embed/WGA_ctAMkMk?si=f_2ij_dAsxgBGqIe",
     "thumbnailLink": "30 Mins UpperBody Workout",
     "videoTime": "35:23",
     "tag": [
@@ -853,7 +853,7 @@
   {
     "id": 48,
     "videoName": "30 MIN LEG WORKOUT with weights, dumbbells | LOW IMPACT",
-    "videoURL": "https://www.youtube.com/watch?v=olJ6ljjtoTM&ab_channel=growingannanas",
+    "videoURL": "https://www.youtube.com/embed/olJ6ljjtoTM?si=9_qDMMwOz9TkevnW",
     "thumbnailLink": "30 Mins LowerBody Workout",
     "videoTime": "30:33",
     "tag": [
@@ -872,7 +872,7 @@
   {
     "id": 49,
     "videoName": "20 Minute HIIT Cardio Workout Glutes & Abs",
-    "videoURL": "https://www.youtube.com/watch?v=5HIFBp6a6OU&ab_channel=SELF",
+    "videoURL": "https://www.youtube.com/embed/5HIFBp6a6OU?si=1ZHdXAPgo7MfRfwZ",
     "thumbnailLink": "20 Mins Butt Abs",
     "videoTime": "29:39",
     "tag": [
@@ -891,7 +891,7 @@
   {
     "id": 50,
     "videoName": "20 Minute Upper Body Dumbbell Workout",
-    "videoURL": "https://www.youtube.com/watch?v=YxBpeOqvBWw&ab_channel=SELF",
+    "videoURL": "https://www.youtube.com/embed/YxBpeOqvBWw?si=o6bUVC5Rp5wME1Ve",
     "thumbnailLink": "20 Minute Upper Body Dumbbell Workout",
     "videoTime": "34:27",
     "tag": [
@@ -904,5 +904,45 @@
       "kneePain",
       "all"
     ]
+  },
+  {
+    "id": 51,
+    "videoName": "10-Minute Quick Core Workout",
+    "videoURL": "https://www.youtube.com/embed/dNEZKqopc2I?si=f2OtspaNO9zMRR6P",
+    "thumbnailLink": "10-Minute Quick Core Workout",
+    "videoTime": "12:32",
+    "tag": [
+      "beginner",
+      "loseWeight",
+      "gainMuscles",
+      "balance",
+      "coreBody",
+      "neckPain",
+      "shoulderPain",
+      "kneePain",
+      "backPain",
+      "all"
+    ]
+  },
+  {
+    "id": 52,
+    "videoName": "5 Simple Home Exercises To Strengthen Your Core",
+    "videoURL": "https://www.youtube.com/embed/dNEZKqopc2I?si=f2OtspaNO9zMRR6P",
+    "thumbnailLink": "5 Simple Home Exercises To Strengthen Your Core",
+    "videoTime": "7:25",
+    "tag": [
+      "beginner",
+      "loseWeight",
+      "gainMuscles",
+      "balance",
+      "coreBody",
+      "neckPain",
+      "shoulderPain",
+      "kneePain",
+      "backPain",
+      "all"
+    ]
   }
 ]
+
+

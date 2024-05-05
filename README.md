@@ -13,3 +13,7 @@
 ## Packages Installed
 - Next.js
 - react-chartjs-2 | Multiaxis Line Chart
+- react-slick
+- slick-carousel
+- i18next
+- react-intl

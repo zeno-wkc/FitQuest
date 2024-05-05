@@ -108,3 +108,30 @@ export const inventory = {
       }
     ]
   }
+
+export const articles = [
+    {
+      title: "Are you drinking enough water?",
+      link: "/water",
+      image: "/water.png",
+      alt: "Water",
+    },
+    {
+      title: "Adding Protein to your Salads",
+      link: "/salads",
+      image: "/salad.png",
+      alt: "Salad",
+    },
+    {
+      title: "How To Properly Track Calories",
+      link: "/calories",
+      image: "/smartWatch.png",
+      alt: "Smart Watch",
+    },
+    {
+      title: "Best Fruits To Add To Your Shakes",
+      link: "/shakes",
+      image: "/smoothie.png",
+      alt: "Smoothie",
+    },
+  ];

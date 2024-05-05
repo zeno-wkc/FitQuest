@@ -2,42 +2,25 @@ import styles from "./Articles.module.css";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { articles } from "@/data/inventory";
+import { useRouter } from 'next/router';
+import { FormattedMessage, useIntl } from "react-intl";
 
-const articles = [
-  {
-    title: "Are you drinking enough water?",
-    link: "/water",
-    image: "/water.png",
-    alt: "Water",
-  },
-  {
-    title: "Adding Protein to your Salads",
-    link: "/salads",
-    image: "/salad.png",
-    alt: "Salad",
-  },
-  {
-    title: "How To Properly Track Calories",
-    link: "/calories",
-    image: "/smartWatch.png",
-    alt: "Smart Watch",
-  },
-  {
-    title: "Best Fruits To Add To Your Shakes",
-    link: "/shakes",
-    image: "/smoothie.png",
-    alt: "Smoothie",
-  },
-];
 
 export default function Articles() {
+  const { locales } = useRouter();
+  const intl = useIntl();
+  const articleTitle = (index) => {
+    return intl.formatMessage({ id: `page.article.item0${index + 1}.title` })
+  };
+
+
   const [bookmarks, setBookmarks] = useState(() => {
     const storedBookmarks = typeof window !== "undefined" ? localStorage.getItem("bookmarks") : null;
     console.log(storedBookmarks);
     return storedBookmarks ? JSON.parse(storedBookmarks) : [];
   });
 
-  // Function to toggle the bookmark status
   const handleBookmarkClick = (event, index) => {
     event.preventDefault();
     const newBookmarks = [...bookmarks];
@@ -47,7 +30,6 @@ export default function Articles() {
 
   return (
     <div className={styles.articleContainer}>
-      {/* Map through articles and render each article */}
       {articles.map((article, index) => (
         <div key={index} className={styles.articleCardContainer}>
           <Link href={article.link}>
@@ -55,7 +37,7 @@ export default function Articles() {
               <Image className={styles.cardImg} src={article.image} width={155} height={170} alt={article.alt} />
             </div>
             <div className={styles.titleContainer}>
-              <p>{article.title}</p>
+              <p>{articleTitle(index)}</p>
               <button className={`${styles.bookmarkBtn} ${bookmarks[index] ? styles.selectedImage : ''}`} onClick={(event) => handleBookmarkClick(event, index)}>
                 <i className="icon-Group-173"></i>
               </button>

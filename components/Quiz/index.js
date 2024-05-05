@@ -2,9 +2,19 @@ import styles from "./Quiz.module.css";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { inventory } from "@/data/inventory";
-import Result from "@/components/Results";
+import { useRouter } from 'next/router';
+import { FormattedMessage, useIntl } from "react-intl";
 
-export default function Question({setShowResult, setFinalAnswers}) {
+export default function Question({setShowResult, setFinalAnswers, dir}) {
+  const { locales, push: finalData } = useRouter();
+  const intl = useIntl();
+  const quiz = intl.formatMessage({id: 'page.global.quiz'});
+  const next = intl.formatMessage({id: 'page.global.next'});
+  const finish = intl.formatMessage({id: 'page.global.finish'});
+  const questionTitle = intl.formatMessage({id: 'page.quiz.questionTitle'});
+  const answerIntl = (currentQuestionInt, answerId) => {
+    return intl.formatMessage({ id: `page.quiz.questions_${currentQuestionInt + 1}_answerLabel_${answerId}` })
+  };
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState(Array(inventory.questions.length).fill({}));
   const [showPopup, setShowPopup] = useState(false);
@@ -73,6 +83,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
     handleSession(finalAnswers);
     setShowResult(true);
     setFinalAnswers(handleGetSession());
+    (finalData) ? finalData({ pathname: '/result', query: { finalAnswers: JSON.stringify(finalAnswers) }}) : console.error('Router is not available yet');
   }
 
   const handleSession = (data) => {
@@ -114,8 +125,8 @@ export default function Question({setShowResult, setFinalAnswers}) {
       <div className={styles.quizContainer}>
         <div className={styles.bannerContainer}>
           <Image className={styles.imgBanner} src="/background-quiz.jpg" width={1295} height={648} alt="quiz background" priority={true} />
-          { currentQuestion != 0 && ( <button className={styles.prevQuestionBtn} onClick={() => handleSelectQuestion('prev')}>&#60; Quiz</button>) }
-          { currentQuestion === 0 && ( <h2>Quiz</h2> ) }
+          { currentQuestion != 0 && ( <button className={styles.prevQuestionBtn} onClick={() => handleSelectQuestion('prev')}>&#60; {quiz}</button>) }
+          { currentQuestion === 0 && ( <h2>{quiz}</h2> ) }
         </div>
         <div className={styles.contentContainer}>
           <div className={styles.quizBtnOfQuestion}>
@@ -127,10 +138,10 @@ export default function Question({setShowResult, setFinalAnswers}) {
               )
             ))}
           </div>          
-          <div className={styles.quizSumOfQuestion}>  Question {currentQuestion + 1}/{questions.length}</div>
+          <div className={styles.quizSumOfQuestion}>{questionTitle} {currentQuestion + 1}/{questions.length}</div>
           <div className={styles.quizContainer}>
             <form key={id} className={styles.formContainer} onSubmit={(e) => e.preventDefault()}>
-              <label className={styles.question}>{question}</label>
+              <label className={styles.question}><FormattedMessage id={`page.quiz.questions_${currentQuestion + 1}`} /></label>
               {(() => {
                 switch (type) {
                   case 'input':
@@ -142,7 +153,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                             key={k.answerId}
                             id={k.answerTag}
                             name={currentQuestion}
-                            placeholder={k.answerLabel}
+                            placeholder={answerIntl(currentQuestion, k.answerId)}
                             value={getAnswer(k.answerTag)}
                             onChange={(e) => handleAnswer(k.answerTag, e.target.value)}
                           />
@@ -154,7 +165,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                       <>
                         {questionAnswers.map((k) => (
                           <div className={styles.answerContainer} key={k.answerId}>
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {answerIntl(currentQuestion, k.answerId)} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
                             <input type="radio"
                               className={styles.inputRadioIcon}
                               id={k.answerTag}
@@ -172,7 +183,7 @@ export default function Question({setShowResult, setFinalAnswers}) {
                       <>
                         {questionAnswers.map((k) => (
                           <div className={styles.answerContainer} key={k.answerId}>
-                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {k.answerLabel}</label>
+                            <label className={styles.inputCheckboxLabel} htmlFor={k.answerTag}>{k.answerId}. {answerIntl(currentQuestion, k.answerId)}</label>
                             <input type="checkbox"
                               className={styles.inputCheckboxIcon}
                               id={k.answerTag}
@@ -191,8 +202,8 @@ export default function Question({setShowResult, setFinalAnswers}) {
               })()}
             </form>
             <div className={styles.finalButtonContainer}>
-              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>NEXT <i className="icon-Group-165"></i></button>) }
-              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>FINISH <i className="icon-Group-165"></i></button>) }
+              { currentQuestion != 4 && ( <button className={styles.nextBtn} onClick={() => handleSelectQuestion('next')}>{next} <i className="icon-Group-165"></i></button>) }
+              { currentQuestion === 4 && ( <button className={styles.finishBtn} onClick={() => handleFinishQuestion()}>{finish} <i className="icon-Group-165"></i></button>) }
             </div>
           </div>
         </div>
@@ -200,8 +211,8 @@ export default function Question({setShowResult, setFinalAnswers}) {
       {showPopup && (
         <div className={`${styles.popupContainer} ${styles.overlay}`}>
           <div className={styles.popupContent}>
-            <p>Please fill in all answers before proceeding.</p>
-            <button className={styles.closeBtn} onClick={handleClosePopup}>Close <i className="icon-Group-165"></i></button>
+            <p><FormattedMessage id={`page.quiz.popup`} /></p>
+            <button className={styles.closeBtn} onClick={handleClosePopup}><FormattedMessage id={`page.global.close`} /> <i className="icon-Group-165"></i></button>
           </div>
         </div>
       )}</>)}

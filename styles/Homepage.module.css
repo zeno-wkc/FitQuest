@@ -1,4 +1,14 @@
-.mainContainer {
+.mobileContainer {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  margin: 60px auto;
+  background-color: var(--red);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.main{
   background-color: var(--black-bg);
   padding-bottom: 50px;
   min-height: 100vh;

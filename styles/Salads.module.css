@@ -1,3 +1,13 @@
+.mobileContainer {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  margin: 60px auto;
+  background-color: var(--red);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
 .articleContainer {
   display: flex;
   flex-direction: column;
