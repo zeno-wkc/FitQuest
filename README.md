@@ -6,9 +6,9 @@
 - Zeno Wong
   
 ## Description
-- This application helps user to maintain their health by providing daily workout challenges.
-- This is a fitness application, providing workout videos and nutrition information for users.
-- The application also provide users with statistics tracker and rewards, in order to motivate them to do exercise regularly.
+- This application helps users to maintain their health by providing daily workout challenges.
+- This fitness application provides workout videos and nutrition information for users.
+- The application also provides users with a statistics tracker and rewards, in order to motivate them to do the exercise regularly.
 
 ## Packages Installed
 - Next.js
@@ -17,3 +17,4 @@
 - slick-carousel
 - i18next
 - react-intl
+- react-switch
