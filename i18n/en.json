@@ -143,5 +143,7 @@
   "_comment18": "challenge card header",
   "page.challengeCard.content.title": "Daily Challenge",
   "page.challengeCard.content.description": "You're on a roll! Finish today's challenge to gain 100 points!",
-  "page.challengeCard.content.days": "Daily check in - 20/30 days"
+  "page.challengeCard.content.days": "Daily check in - 20/30 days",
+  "_comment19": "challenge card header",
+  "page.newVideo.title": "Latest Videos"
 }

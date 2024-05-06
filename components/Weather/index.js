@@ -42,8 +42,6 @@ export default function Weather() {
         console.log(info.days.temp);
       })
   }, [])
-  
-  console.log(data);
 
   return(
     <>
@@ -52,7 +50,7 @@ export default function Weather() {
         {
           data.map((item, key) => (
             (key < 7) && (
-              <div className={styles.weatherContainer}>
+              <div key={key} className={styles.weatherContainer}>
                 <div className={styles.weatherMainContainer}>
                   <Image src="/Sun.svg" width={80} height={80} alt="sun icon" priority={true} />
                   <div className={styles.currentWeather}>
@@ -68,7 +66,7 @@ export default function Weather() {
                   <h3>{date}{data.length > 0 ? item.datetime : ''}</h3>
                   <h3>{tempMax}{data.length > 0 ? celsusConvert(item.tempmax) : ''}</h3>
                   <h3>{tempMin}{data.length > 0 ? celsusConvert(item.tempmin) : ''}</h3>
-                  <h3>{humidity}{data.length > 0 ? Math.round(item.humidity) : ''}</h3>
+                  <h3>{humidity}{data.length > 0 ? Math.round(item.humidity) : ''}%</h3>
                 </div>
               </div>
           )))

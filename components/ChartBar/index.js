@@ -44,7 +44,8 @@ export default function ChartBar() {
     setChartOptions({
       plugins: {
         legend: { position: 'top' },
-        title: { display: false, text: "" }
+        title: { display: false, text: "" },
+        width: "130",
       },
       maintainAspectRatio: false, 
       responsive: true,
@@ -54,8 +55,8 @@ export default function ChartBar() {
   return (
     <div className={styles.chartBarContainer}>
       <h3>{calories}</h3>
-      <div className={styles.chartBarContentContainer}>
-        <Bar data={chartData} options={chartOptions} />
+      <div className={styles.chartBarContentContainer} style={{height:'134px', width:'134px'}}>
+          <Bar data={chartData} options={chartOptions} />
       </div>
       <p><span>398</span>cal</p>
     </div>

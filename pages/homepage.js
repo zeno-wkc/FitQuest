@@ -11,6 +11,7 @@ import HomeFitnessStatistics from "@/components/HomeFitnessStatistics";
 import ProfileHeader from "@/components/ProfileHeader";
 import ChallengeCard from "@/components/ChallengeCard";
 import Weather from "@/components/Weather";
+import NewVideo from "@/components/NewVideo";
 
 export default function Homepage({ dir }) {
   const page = "homepage";
@@ -38,6 +39,7 @@ export default function Homepage({ dir }) {
             <ChallengeCard />
             <Weather />
           </section>
+          <NewVideo />
           <HomeFitnessStatistics />
           <HomeNutritonTips />
         </main>
