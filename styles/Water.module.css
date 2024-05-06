@@ -14,6 +14,17 @@
   }
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  background: var(--black-bg);
+}
+
 .articleContainer {
   display: flex;
   flex-direction: column;

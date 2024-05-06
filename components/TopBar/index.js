@@ -20,7 +20,7 @@ export default function TopBar({ page }) {
 
   return (
     <div className={styles.topBarContainer}>
-      <Link className={styles.fitquestLogoLink} href="/">
+      <Link className={styles.fitquestLogoLink} href="/homepage">
         <div className={styles.fitquestLogoContainer}>
           <Image className={styles.fitquestLogoImg} src="/FitQuest-logo.png" width={1713} height={430} alt="homepage background" priority={true} />
         </div>

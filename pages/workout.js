@@ -16,7 +16,28 @@ export default function workout({ dir }) {
   const filterVideo = videoInventory;
   const title = intl.formatMessage({ id: 'page.workout.head.title' });
   const description = intl.formatMessage({ id: 'page.workout.head.meta.description' });
+  const bodyPart1 = intl.formatMessage({ id: 'page.result.bodyPart1' });
+  const bodyPart2 = intl.formatMessage({ id: 'page.result.bodyPart2' });
+  const bodyPart3 = intl.formatMessage({ id: 'page.result.bodyPart3' });
+  const bodyPart4 = intl.formatMessage({ id: 'page.result.bodyPart4' });
   
+  const bodypart = (items) => {
+    let tempItems = "";
+    let hasYoga = false;
+    items.forEach((item) => {
+      if (item.includes('upperBody')) tempItems += `${bodyPart1} / `;
+      if (item.includes('lowerBody')) tempItems += `${bodyPart2} / `;
+      if (item.includes('coreBody')) tempItems += `${bodyPart3} / `;
+      if (['fullBody', 'yoga'].some(keyword => item.includes(keyword))) {
+        if (!hasYoga) {
+          tempItems += `${bodyPart4} / `;
+          hasYoga = true;
+        }
+      }
+    });
+    return tempItems.slice(0, -2);
+  }
+
   return (
     <>
       <Head>
@@ -43,7 +64,7 @@ export default function workout({ dir }) {
                       </div>
                       <div className={styles.videoContentContainer}>
                         <div className={styles.videoContentUpperContainer}>
-                          <h2></h2>
+                          <h2>{bodypart(item.tag)}</h2>
                         </div>
                         <div className={styles.videoContentBottomContainer}>
                           <h3 className={styles.videoTitle}>{item.videoName}</h3>

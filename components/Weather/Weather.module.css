@@ -1,3 +1,89 @@
-.WeatherCardContainer {
+.weatherContainer {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 240px;
+  padding: 12px;
+  border-radius: 16px;
   color: var(--white);
+  background-color: #232627;
+}
+
+.weatherMainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45%;
+}
+
+.currentWeather {
+    padding: 5px;
+}
+
+.weatherMainContainer h1 {
+    font-size: 36px;
+    color: var(--orange);
+}
+
+.weatherMainContainer h2 {
+    font-size: 12px;
+    color: var(--orange);
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.locationContainer p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.weatherDetail h3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.weatherSliderContainer button{
+  display: none !important;
+}
+
+.weatherContainer {
+  width: 50%;
+  border-radius: 16px;
+}
+
+.sliderContainer {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 240px !important;
+  height: 240px !important;
+  border: 0;
+  border-radius: 16px;
+  color: white;
+  overflow: hidden;
+}
+
+.sliderContainer button {
+display: none !important;
+}
+
+.sliderContainer ul button {
+  display: block !important;
+}
+
+.sliderContainer ul {
+  bottom: 30px !important;
+}
+
+.sliderContainer ul li{
+  margin: 0 !important;
+}
+
+.sliderContainer ul li button:before {
+  color: var(--white) !important;
 }

@@ -1,0 +1,33 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 3.44rem;
+    padding: 15px 20px 0;
+    margin-bottom: 30px;
+    color: var(--white);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+} 
+
+.userInfo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.currentPoint span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 0.3rem;
+}
+
+.pointContainer p {
+    font-size: 10px;
+    font-weight: lighter;
+}

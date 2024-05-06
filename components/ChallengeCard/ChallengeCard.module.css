@@ -1,0 +1,57 @@
+.challengeCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  border-radius: 16px;
+  color: var(--white);
+  background-color: var(--grey);
+}
+
+.challengeCardContainer h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.challengeCardContainer p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.progressBar p {
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.progress2 {
+  border-radius: 30px;
+  background: #D9D1C2;
+}
+  
+.progress_bar2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 12px;
+  border-radius: 30px;
+}
+
+  
+.progress_moved .progress_bar2 {
+  width: 75%;
+  background-color: var(--orange);
+  animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}

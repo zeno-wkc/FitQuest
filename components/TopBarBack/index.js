@@ -25,7 +25,7 @@ export default function TopBarBack({ linkPath, linkText, page }) {
           <i className="icon-Group-174"></i>
         </div>
       </Link>
-      <Link className={styles.fitquestLogoLink} href="/">
+      <Link className={styles.fitquestLogoLink} href="/homepage">
         <div className={styles.fitquestLogoContainer}>
           <Image className={styles.fitquestLogoImg} src="/FitQuest-logo.png" width={1713} height={430} alt="homepage background" />
         </div>

@@ -8,6 +8,9 @@ import TopBar from "@/components/TopBar";
 import BottomBar from "@/components/BottomBar";
 import HomeNutritonTips from "@/components/HomeNutritonTips";
 import HomeFitnessStatistics from "@/components/HomeFitnessStatistics";
+import ProfileHeader from "@/components/ProfileHeader";
+import ChallengeCard from "@/components/ChallengeCard";
+import Weather from "@/components/Weather";
 
 export default function Homepage({ dir }) {
   const page = "homepage";
@@ -30,6 +33,11 @@ export default function Homepage({ dir }) {
       <div className={styles.mobileContainer}>
         <TopBar page={page} />
         <main dir={dir} className={`${styles.main}`}>
+          <ProfileHeader userName={"Jane"} pointBalance={"1580"}/>
+          <section className={styles.firstSection}>
+            <ChallengeCard />
+            <Weather />
+          </section>
           <HomeFitnessStatistics />
           <HomeNutritonTips />
         </main>

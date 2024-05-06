@@ -35,7 +35,7 @@ export default function Water() {
             </div>
             <div className={styles.contentContainer}>
               <div className={styles.imgContainer}>
-                <Image className={styles.Img} src="/waterExtended.png" width={390} height={200} alt="A glass of water" />
+                <Image className={styles.Img} src="/waterExtended.png" width={390} height={200} alt="A glass of water" priority={true} />
               </div>
               <p className={styles.paragraph}><FormattedMessage id={`page.water.content01`} /></p>
               <ul className={styles.listContainer}>
