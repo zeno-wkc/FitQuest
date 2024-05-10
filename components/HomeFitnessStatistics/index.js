@@ -15,7 +15,7 @@ export default function HomeFitnessStatistics() {
     <div className={styles.homeFitnessStatisticsContainer}>
       <div className={styles.titleContainer}>
         <h3>{homeFitnessStatistics}</h3>
-        <Link className={styles.showBtnLink} href="/">{showMore}</Link>
+        <Link className={styles.showBtnLink} href="/">{showMore}<i className={`${`icon-Group-186`} ${styles.showMoreBtnIcon}`}></i></Link>
       </div>
       <div className={styles.homeFitnessStatisticsContentContainer}>
         <Link className={styles.cardContainerLink} href="/homepage">

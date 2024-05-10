@@ -124,13 +124,13 @@ export const articles = [
     },
     {
       title: "How To Properly Track Calories",
-      link: "/calories",
+      link: "/nutrition",
       image: "/smartWatch.png",
       alt: "Smart Watch",
     },
     {
       title: "Best Fruits To Add To Your Shakes",
-      link: "/shakes",
+      link: "/nutrition",
       image: "/smoothie.png",
       alt: "Smoothie",
     },
@@ -175,11 +175,11 @@ export const articles = [
       },{
         itemName: "Sync to other health apps",
         icon: "181",
-        default: true
+        default: false
       },{
         itemName: "Delete all progress & data",
         icon: "177",
-        default: true
+        default: false
       }]
     },{
       title: "Language", 
@@ -189,4 +189,48 @@ export const articles = [
         default: true
       }]
     }
-  ]
+  ];
+
+  export const history = [
+    {
+      icon: "185",
+      title: "Outdoor Running",
+      result: "3.80km",
+      date: "2024.05.12"
+    },{
+      icon: "151",
+      title: "Full Body Workout",
+      result: "3.80km",
+      date: "2024.05.11"
+    },{
+      icon: "150",
+      title: "Core Workout",
+      result: "1hr",
+      date: "2024.05.10"
+    },{
+      icon: "185",
+      title: "Outdoor Running",
+      result: "4.80km",
+      date: "2024.05.09"
+    },{
+      icon: "185",
+      title: "Outdoor Running",
+      result: "5.80km",
+      date: "2024.05.08"
+    },{
+      icon: "185",
+      title: "Outdoor Running",
+      result: "3.80km",
+      date: "2024.05.07"
+    },{
+      icon: "149",
+      title: "Upper Body Workout",
+      result: "3.80km",
+      date: "2024.05.07"
+    },{
+      icon: "185",
+      title: "Outdoor Running",
+      result: "2.80km",
+      date: "2024.05.06"
+    },
+  ];

@@ -50,7 +50,7 @@ export default function NewVideo() {
     <>
       <div className={styles.titleContainer}>
         <h3>{newVideo}</h3>
-        <Link className={styles.showBtnLink} href="/workout">{showMore}</Link>
+        <Link className={styles.showBtnLink} href="/workout">{showMore}<i className={`${`icon-Group-186`} ${styles.showMoreBtnIcon}`}></i></Link>
       </div>
       <div className={styles.videoSliderContainer}>
         <Slider {...settings}>

@@ -6,6 +6,26 @@
   font-size: 14px;
 }
 
+.showMoreBtnIcon {
+  display: inline-block;
+  padding-top: 1px;
+  float: right;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.showBtnLink:hover, .showBtnLink:hover i {
+  color: var(--orange-light);
+}
+
+.showMoreBtnIcon {
+  display: inline-block;
+  padding-top: 1px;
+  float: right;
+  font-size: 14px;
+  color: var(--white);
+}
+
 .titleContainer {
   display: flex;
   flex-direction: row;

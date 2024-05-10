@@ -14,7 +14,7 @@ export default function HomeNutritonTips() {
     <div className={styles.homeNutritonTipsContainer}>
       <div className={styles.titleContainer}>
         <h3>{title}</h3>
-        <Link className={styles.showBtnLink} href="/nutrition">{showMore}</Link>
+        <Link className={styles.showBtnLink} href="/nutrition">{showMore}<i className={`${`icon-Group-186`} ${styles.showMoreBtnIcon}`}></i></Link>
       </div>
       <div className={styles.homeNutritonTipsContentContainer}>
         <Link className={styles.cardContainerLink} href="/salads">

@@ -21,7 +21,7 @@ export default function BtmBar() {
             <h6>{workout}</h6>
           </div>
         </Link>
-        <Link className={styles.rewardsBtnLink} href="/">
+        <Link className={styles.rewardsBtnLink} href="/rewards">
           <div className={`${styles.btnContainer} ${styles.bottomBarBtn}`}>       
             <i className="icon-Group-162"></i>
             <h6>{rewards}</h6>
@@ -39,7 +39,7 @@ export default function BtmBar() {
             <h6>{nutrition}</h6>
           </div>
         </Link>
-        <Link className={styles.settingBtnLink} href="/setting">
+        <Link className={styles.settingBtnLink} href="/settings">
           <div className={`${styles.btnContainer} ${styles.bottomBarBtn}`}>
             <i className="icon-Group-161"></i>
             <h6>{setting}</h6>

@@ -32,9 +32,19 @@
   color: var(--white);
 }
 
-.showBtnLink:hover {
+.showBtnLink:hover, .showBtnLink:hover i {
   color: var(--orange-light);
 }
+
+.showMoreBtnIcon {
+  display: inline-block;
+  padding-top: 1px;
+  float: right;
+  font-size: 14px;
+  color: var(--white);
+}
+
+
 
 .videoCardContainer {
   position: relative;
