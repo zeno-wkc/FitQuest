@@ -39,7 +39,7 @@ export default function BtmBar() {
             <h6>{nutrition}</h6>
           </div>
         </Link>
-        <Link className={styles.settingBtnLink} href="/">
+        <Link className={styles.settingBtnLink} href="/setting">
           <div className={`${styles.btnContainer} ${styles.bottomBarBtn}`}>
             <i className="icon-Group-161"></i>
             <h6>{setting}</h6>

@@ -70,6 +70,7 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-Group-150:before {
   content: "\e900";
 }
@@ -172,4 +173,40 @@ i {
 
 .icon-Group-175:before {
   content: "\e919";
+}
+
+.icon-Group-176:before {
+  content: "\e91a";
+}
+
+.icon-Group-177:before {
+  content: "\e91f";
+}
+
+.icon-Group-178:before {
+  content: "\e91e";
+}
+
+.icon-Group-179:before {
+  content: "\e91d";
+}
+
+.icon-Group-180:before {
+  content: "\e91c";
+}
+
+.icon-Group-181:before {
+  content: "\e91b";
+}
+
+.icon-Group-182:before {
+  content: "\e920";
+}
+
+.icon-Group-183:before {
+  content: "\e921";
+}
+
+.icon-Group-184:before {
+  content: "\e922";
 }

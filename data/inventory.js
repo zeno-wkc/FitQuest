@@ -135,3 +135,58 @@ export const articles = [
       alt: "Smoothie",
     },
   ];
+
+  export const settingValues = [
+    { 
+      title: "Notifications", 
+      settingItems: [{
+        itemName: "Show Notifications",
+        icon: "176",
+        default: true
+      }]
+    },{
+      title: "Appearance",
+      settingItems: [{
+        itemName: "Brightness",
+        icon: "180",
+        default: true
+      },{
+        itemName: "Text Size",
+        icon: "179",
+        default: true
+      }]
+    },{
+      title: "Sound & Vibration",
+      settingItems: [{
+        itemName: "Sound On",
+        icon: "178",
+        default: true
+      },{
+        itemName: "Vibration On",
+        icon: "184",
+        default: false
+      }]
+    },{
+      title: "Privacy Setting",
+      settingItems: [{
+        itemName: "Allow GPS",
+        icon: "176",
+        default: true
+      },{
+        itemName: "Sync to other health apps",
+        icon: "181",
+        default: true
+      },{
+        itemName: "Delete all progress & data",
+        icon: "177",
+        default: true
+      }]
+    },{
+      title: "Language", 
+      settingItems: [{
+        itemName: "Language",
+        icon: "183",
+        default: true
+      }]
+    }
+  ]

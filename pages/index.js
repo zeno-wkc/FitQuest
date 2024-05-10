@@ -47,7 +47,7 @@ export default function Home({ dir }) {
         <main dir={dir} className={`${styles.main}`}>
           <div className={styles.languageDropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <div className={`${styles.btnContainer} ${styles.topBarBtn}`}>
-              <i className="icon-Group-175"></i>
+              <i className="icon-Group-183"></i>
             </div>
             {showMenu && (
               <div className={styles.languageMenu}>
