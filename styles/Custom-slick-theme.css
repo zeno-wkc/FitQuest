@@ -4,7 +4,7 @@
   left: -1px !important;
   transform: translate(0, -52%) !important;
   z-index: 2 !important;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 60%,  rgba(0,0,0,.25) 90%, rgba(0,0,0,0) 100%) !important;
+  background: linear-gradient(90deg, rgba(18, 18, 18, 1) 60%,  rgba(18, 18, 18, .25) 90%, rgba(18, 18, 18, 0) 100%) !important;
 }
 
 [dir='rtl'] .slick-prev {
@@ -17,7 +17,7 @@
   transform: translate(0, -52%) !important;
   right: -1px !important;
   z-index: 2 !important;
-  background: linear-gradient(270deg, rgba(0,0,0,1) 60%,  rgba(0,0,0,.25) 90%, rgba(0,0,0,0) 100%) !important;
+  background: linear-gradient(270deg, rgba(18, 18, 18, 1) 60%,  rgba(18, 18, 18, .25) 90%, rgba(18, 18, 18, 0) 100%) !important;
 }
 
 [dir='rtl'] .slick-next {

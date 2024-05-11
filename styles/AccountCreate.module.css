@@ -1,5 +1,27 @@
+.mobileContainer {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  margin: 60px auto;
+  background-color: var(--red);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileContainer {
+    margin: auto;
+  }
+}
+
 .main {
-  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+  background: var(--black-bg);
 }
 
 .titleContainer {
@@ -55,13 +77,24 @@
   margin: 0 0 30px;
 }
 
-.headerSelectorContentContainer .uploadZoneContainer {
-  padding: 50px;
-  width: 32px;
+.uploadBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+  width: auto;
+  min-height: 153px; 
   color: var(--white);
   font-size: 32px;
   border: 2px dashed var(--grey-icon);
   border-radius: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.uploadBtn p {
+  margin: 5px 0 !important;
 }
 
 .nextBtn {
@@ -90,4 +123,64 @@
 
 .nextBtn:hover {
   background-color: var(--orange-light);
+}
+
+.popupContainer {
+  display: flex;
+}
+
+.popupContent {
+  position: relative;
+  width: calc(100% - 15%);
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  transition: all 5s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  z-index: 5;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupContent p {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popupContent .closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 14px;
+  background-color: transparent;
+  width: 40px;
+  cursor: pointer;
+}
+
+.popupContent .closeBtn i {
+  margin-right: -10px;
+  font-size: 29px !important;
+}
+
+.popupContent .closeBtn:hover {
+  color: var(--orange-light); 
 }

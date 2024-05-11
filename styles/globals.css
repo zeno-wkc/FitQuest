@@ -3,6 +3,7 @@
   --black-bg-65: rgba(18, 18, 18, .65);
   --black: #000;
   --white: #FFF;
+  --white-icon: rgba(255, 255, 255, .5);
   --orange: #FF5C00;
   --orange-light: #FF7C32;
   --grey: #232627;
@@ -217,4 +218,8 @@ i {
 
 .icon-Group-186:before {
   content: "\e924";
+}
+
+.icon-Group-187:before {
+  content: "\e925";
 }

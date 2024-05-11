@@ -61,7 +61,7 @@ export default function NewVideo() {
                   <Link className={styles.linkage} href={{ pathname: '/videoPageFull', query: { videoURL: item.videoURL }}}>
                     <div key={`video${key}`} className={styles.videoCardItems}>
                       <div className={styles.imageContainer}>
-                        <img className={styles.imageItem} src={`/image-thumbnail/${item.thumbnailLink}.jpeg`} />
+                        <Image className={styles.imageItem} src={`/image-thumbnail/${item.thumbnailLink}.jpeg`} alt={item.videoName} width={1280} height={720} priority={true} />
                       </div>
                       <div className={styles.videoContentContainer}>
                         <div className={styles.videoContentUpperContainer}>

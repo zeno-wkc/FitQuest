@@ -173,5 +173,14 @@
   "_comment22": "rewards",
   "page.rewards.head.title": "FitQuest - rewards",
   "page.rewards.head.meta.description": "FitQuest rewards",
-  "page.rewards.title": "My Rewards"
+  "page.rewards.title": "My Rewards",
+  "_comment23": "achievement",
+  "page.achievement.title": "Achievements",
+  "page.achievement.finished01": "30 ",
+  "page.achievement.finished02": "50 ",
+  "page.achievement.finished03": "20 ",
+  "page.achievement.activity01": "Upper Body",
+  "page.achievement.activity02": "Full Body",
+  "page.achievement.activity03": "Core Trining",
+  "page.achievement.Status": "Video Completed"
 }

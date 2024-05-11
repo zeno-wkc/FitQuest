@@ -95,3 +95,8 @@
   cursor: pointer;
   background-color: var(--orange);
 }
+
+.settingContainer button.settingBtn:hover .settingBtnIcon {
+  color: var(--white);
+  background-color: var(--white-icon);
+}

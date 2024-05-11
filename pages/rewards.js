@@ -6,6 +6,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import TopBar from "@/components/TopBar";
 import BottomBar from "@/components/BottomBar";
 import History from "@/components/History";
+import Achievement from "@/components/Achievement";
 
 export default function Rewards({ dir }) {
   const page="rewards";
@@ -29,7 +30,17 @@ export default function Rewards({ dir }) {
       <div className={styles.mobileContainer}>
         <TopBar page={page} />
         <main className={`${styles.main}`}>
+        <input
+        type="range"
+        min={0}
+        max={100}
+        step={1}
+        value={0}
+        onChange={0}
+        className={styles.ruler}
+      />
           <h1 className={styles.heading}>{contentTitle}</h1>
+          <Achievement />
           <History />
         </main>
         <BottomBar />
