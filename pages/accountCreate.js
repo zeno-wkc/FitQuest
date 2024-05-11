@@ -1,13 +1,12 @@
 import Head from "next/head";
 import styles from "@/styles/AccountCreate.module.css";
 import Image from "next/image";
-import { useState } from  "react";
+import { useState} from  "react";
 import fs from 'fs';
 import path from "path";
 import TopBarTranslate from "@/components/TopBarTranslate";
 import HeadSlider from "@/components/HeadSlider";
-
-import axios from 'axios';
+import UploadForm from "@/components/UploadForm";
 
 export async function getStaticProps() {
   try {
@@ -24,31 +23,6 @@ export default function AccountCreate({ filesCount }) {
   const [popupOpen, setPopupOpen] = useState(false);
   const handleOpenPopup = () => setPopupOpen(true);
   const handleClosePopup = () => setPopupOpen(false);
-  
-
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [uploadStatus, setUploadStatus] = useState(null);
-
-const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-  };
-
-  const handleUpload = async () => {
-    const formData = new FormData();
-    formData.append('file', selectedFile);
-
-    try {
-      const response = await axios.post('/api/upload', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      });
-      setUploadStatus(response.data);
-    } catch (error) {
-      console.error('Error uploading file:', error);
-      setUploadStatus({ error: 'Failed to upload file' });
-    }
-  };
 
   return (
     <>
@@ -66,19 +40,7 @@ const handleFileChange = (event) => {
         <main className={`${styles.main}`}>
           <div className={styles.createAccountContainer}>
 
-
-
-          <div className="test">
-            <input type="file" accept=".jpg,.jpeg,.png" onChange={handleFileChange} />
-            <button onClick={handleUpload}>Upload</button>
-            {uploadStatus && (
-              <div>
-                {uploadStatus.success ? 'File uploaded successfully' : uploadStatus.error}
-              </div>
-            )}
-          </div>
-
-
+            <div className="Test"><UploadForm /></div>
 
             <h1 className={styles.titleContainer}>Create your<br />Account</h1> 
             <div className={styles.headerSelectorArrowContainer}>
