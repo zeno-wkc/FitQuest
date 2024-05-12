@@ -6,7 +6,6 @@ import fs from 'fs';
 import path from "path";
 import TopBarTranslate from "@/components/TopBarTranslate";
 import HeadSlider from "@/components/HeadSlider";
-import UploadForm from "@/components/UploadForm";
 
 export async function getStaticProps() {
   try {
