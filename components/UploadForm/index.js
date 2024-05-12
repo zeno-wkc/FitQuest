@@ -1,26 +1,35 @@
-import styles from "./uploadForm.module.css";
-import { useState } from "react";
-
-export default function UploadForm() {
-  const [file, setFile] = useState(null);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const formData = new FormData();
-    formData.append("file", file);
-
-    const response = await fetch("/api/file/", {
-      method: "POST",
-      body: formData,
-    });
-    // Handle response
-  };
-
+import { upload } from '@vercel/blob/client';
+import { useState, useRef } from 'react';
+ 
+export default function UploadPage() {
+  const inputFileRef = useRef(null);
+  const [blob, setBlob] = useState(null);
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
-      <input type="file" onChange={(e) => setFile(e.target.files[0])} />
-      <button type="submit">Upload</button>
-  </form>
+    <>
+      <h1>Upload Your Avatar</h1>
+ 
+      <form
+        onSubmit={async (event) => {
+          event.preventDefault();
+ 
+          const file = inputFileRef.current.files[0];
+ 
+          const newBlob = await upload(file.name, file, {
+            access: 'public',
+            handleUploadUrl: '/api/file/upload',
+          });
+ 
+          setBlob(newBlob);
+        }}
+      >
+        <input name="file" ref={inputFileRef} type="file" required />
+        <button type="submit">Upload</button>
+      </form>
+      {blob && (
+        <div>
+          Blob url: <a href={blob.url}>{blob.url}</a>
+        </div>
+      )}
+    </>
   );
 }
