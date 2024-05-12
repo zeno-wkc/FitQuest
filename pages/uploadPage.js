@@ -5,6 +5,7 @@ import { useState, useRef } from 'react';
 export default function UploadPage() {
   const inputFileRef = useRef(null);
   const [blob, setBlob] = useState(null);
+
   return (
     <>
       <Head>
@@ -17,43 +18,35 @@ export default function UploadPage() {
         <link rel="icon" href="/favicon.ico" hrefLang="en" />
       </Head>
       <main className={styles.mainContainer}>
-        <h1>Upload Your Avatar</h1>
-        <form
-          onSubmit={async (event) => {
-            event.preventDefault();
+      <h1>Upload Your Avatar</h1>
 
-            const file = inputFileRef.current.files[0];
-            const formData = new FormData();
-            formData.append('file', file);
+      <form
+        onSubmit={async (event) => {
+          event.preventDefault();
 
-            try {
-              const response = await fetch(
-                './api/file', // Update the endpoint URL accordingly
-                {
-                  method: 'POST',
-                  body: formData,
-                },
-              );
+          const file = inputFileRef.current.files[0];
 
-              if (response.ok) {
-                const newBlob = await response.json();
-                setBlob(newBlob);
-              } else {
-                console.error('Failed to upload file');
-              }
-            } catch (error) {
-              console.error('Error uploading file:', error);
-            }
-          }}
-        >
-          <input name="file" ref={inputFileRef} type="file" required />
-          <button type="submit">Upload</button>
-        </form>
-        {blob && (
-          <div>
-            Blob URL: <a href={blob.url}>{blob.url}</a>
-          </div>
-        )}
+          const response = await fetch(
+            `/api/avatar/upload?filename=${file.name}`,
+            {
+              method: 'POST',
+              body: file,
+            },
+          );
+
+          const newBlob = await response.json();
+
+          setBlob(newBlob);
+        }}
+      >
+        <input name="file" ref={inputFileRef} type="file" required />
+        <button type="submit">Upload</button>
+      </form>
+      {blob && (
+        <div>
+          Blob url: <a href={blob.url}>{blob.url}</a>
+        </div>
+      )}
       </main>
     </>
   );
