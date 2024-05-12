@@ -38,7 +38,6 @@ export default function AccountCreate({ filesCount }) {
       <TopBarTranslate />
         <main className={`${styles.main}`}>
           <div className={styles.createAccountContainer}>
-
             <h1 className={styles.titleContainer}>Create your<br />Account</h1> 
             <div className={styles.headerSelectorArrowContainer}>
               <Image className={styles.arrowImgItem} src="/Arrow_drop_down_big.png" width={36} height={36} alt="image head 02" />
