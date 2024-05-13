@@ -110,127 +110,199 @@ export const inventory = {
   }
 
 export const articles = [
-    {
-      title: "Are you drinking enough water?",
-      link: "/water",
-      image: "/water.png",
-      alt: "Water",
-    },
-    {
-      title: "Adding Protein to your Salads",
-      link: "/salads",
-      image: "/salad.png",
-      alt: "Salad",
-    },
-    {
-      title: "How To Properly Track Calories",
-      link: "/nutrition",
-      image: "/smartWatch.png",
-      alt: "Smart Watch",
-    },
-    {
-      title: "Best Fruits To Add To Your Shakes",
-      link: "/nutrition",
-      image: "/smoothie.png",
-      alt: "Smoothie",
-    },
-  ];
+  {
+    title: "Are you drinking enough water?",
+    link: "/water",
+    image: "/water.png",
+    alt: "Water",
+  },
+  {
+    title: "Adding Protein to your Salads",
+    link: "/salads",
+    image: "/salad.png",
+    alt: "Salad",
+  },
+  {
+    title: "How To Properly Track Calories",
+    link: "/nutrition",
+    image: "/smartWatch.png",
+    alt: "Smart Watch",
+  },
+  {
+    title: "Best Fruits To Add To Your Shakes",
+    link: "/nutrition",
+    image: "/smoothie.png",
+    alt: "Smoothie",
+  },
+];
 
-  export const settingValues = [
-    { 
-      title: "Notifications", 
-      settingItems: [{
-        itemName: "Show Notifications",
-        icon: "176",
-        default: true
-      }]
+export const settingValues = [
+  { 
+    title: "Notifications", 
+    settingItems: [{
+      itemName: "Show Notifications",
+      icon: "176",
+      default: true
+    }]
+  },{
+    title: "Appearance",
+    settingItems: [{
+      itemName: "Brightness",
+      icon: "180",
+      default: true
     },{
-      title: "Appearance",
-      settingItems: [{
-        itemName: "Brightness",
-        icon: "180",
-        default: true
-      },{
-        itemName: "Text Size",
-        icon: "179",
-        default: true
-      }]
+      itemName: "Text Size",
+      icon: "179",
+      default: true
+    }]
+  },{
+    title: "Sound & Vibration",
+    settingItems: [{
+      itemName: "Sound On",
+      icon: "178",
+      default: true
     },{
-      title: "Sound & Vibration",
-      settingItems: [{
-        itemName: "Sound On",
-        icon: "178",
-        default: true
-      },{
-        itemName: "Vibration On",
-        icon: "184",
-        default: false
-      }]
+      itemName: "Vibration On",
+      icon: "184",
+      default: false
+    }]
+  },{
+    title: "Privacy Setting",
+    settingItems: [{
+      itemName: "Allow GPS",
+      icon: "176",
+      default: true
     },{
-      title: "Privacy Setting",
-      settingItems: [{
-        itemName: "Allow GPS",
-        icon: "176",
-        default: true
-      },{
-        itemName: "Sync to other health apps",
-        icon: "181",
-        default: false
-      },{
-        itemName: "Delete all progress & data",
-        icon: "177",
-        default: false
-      }]
+      itemName: "Sync to other health apps",
+      icon: "181",
+      default: false
     },{
-      title: "Language", 
-      settingItems: [{
-        itemName: "Language",
-        icon: "183",
-        default: true
-      }]
-    }
-  ];
+      itemName: "Delete all progress & data",
+      icon: "177",
+      default: false
+    }]
+  },{
+    title: "Language", 
+    settingItems: [{
+      itemName: "Language",
+      icon: "183",
+      default: true
+    }]
+  }
+];
 
-  export const history = [
-    {
-      icon: "185",
-      title: "Outdoor Running",
-      result: "3.80km",
-      date: "2024.05.12"
-    },{
-      icon: "151",
-      title: "Full Body Workout",
-      result: "3.80km",
-      date: "2024.05.11"
-    },{
-      icon: "150",
-      title: "Core Workout",
-      result: "1hr",
-      date: "2024.05.10"
-    },{
-      icon: "185",
-      title: "Outdoor Running",
-      result: "4.80km",
-      date: "2024.05.09"
-    },{
-      icon: "185",
-      title: "Outdoor Running",
-      result: "5.80km",
-      date: "2024.05.08"
-    },{
-      icon: "185",
-      title: "Outdoor Running",
-      result: "3.80km",
-      date: "2024.05.07"
-    },{
-      icon: "149",
-      title: "Upper Body Workout",
-      result: "3.80km",
-      date: "2024.05.07"
-    },{
-      icon: "185",
-      title: "Outdoor Running",
-      result: "2.80km",
-      date: "2024.05.06"
-    },
-  ];
+export const history = [
+  {
+    icon: "185",
+    title: "Outdoor Running",
+    result: "3.80km",
+    status: "Success",
+    date: "2024.05.12"
+  },{
+    icon: "151",
+    title: "Full Body Workout",
+    result: "3.80km",
+    status: "Success",
+    date: "2024.05.11"
+  },{
+    icon: "150",
+    title: "Core Workout",
+    result: "1hr",
+    status: "Failure",
+    date: "2024.05.10"
+  },{
+    icon: "185",
+    title: "Outdoor Running",
+    result: "4.80km",
+    status: "Success",
+    date: "2024.05.09"
+  },{
+    icon: "185",
+    title: "Outdoor Running",
+    result: "5.80km",
+    status: "Success",
+    date: "2024.05.08"
+  },{
+    icon: "185",
+    title: "Outdoor Running",
+    result: "3.80km",
+    status: "Success",
+    date: "2024.05.07"
+  },{
+    icon: "149",
+    title: "Upper Body Workout",
+    result: "3.80km",
+    status: "Success",
+    date: "2024.05.07"
+  },{
+    icon: "185",
+    title: "Outdoor Running",
+    result: "2.80km",
+    status: "Failure",
+    date: "2024.05.06"
+  },
+];
+
+export const redeemItems = [
+  {
+    image: "sport-drink",
+    title: "Get 1 Free Good Sport Bottle of Enery Drink",
+    scores: "500",
+    unlock: true
+  },{
+    image: "unnu",
+    title: "Get 1 Free Unnu Bottle of Enery Drink",
+    scores: "500",
+    unlock: true
+  },{
+    image: "yoga-mat",
+    title: "Get 1 Free Fitness Mat",
+    scores: "1000",
+    lock: false
+  },{
+    image: "decathlon",
+    title: "Get 20% off for Online Purchase",
+    scores: "1000",
+    unlock: false
+  },{
+    image: "nutrition",
+    title: "Get 1 Free Nutrition Consultation",
+    scores: "2000",
+    unlock: false
+  },{
+    image: "nike",
+    title: "$50 Gift card from Nike",
+    scores: "5000",
+    unlock: false
+  },{
+    image: "adidas",
+    title: "$50 Gift card from Adidas",
+    scores: "5000",
+    unlock: false
+  },{
+    image: "under-armour",
+    title: "$50 Gift card from Underarmour",
+    scores: "500",
+    unlock: false
+  },{
+    image: "lululemon",
+    title: "$50 Gift card from Lululemon",
+    scores: "5000",
+    unlock: false
+  },{
+    image: "doordash",
+    title: "$100 Gift card from Doordash",
+    scores: "10000",
+    unlock: false
+  },{
+    image: "dick-sporting",
+    title: "$100 Gift card from Dick's Sporting",
+    scores: "10000",
+    unlock: false
+  },{
+    image: "decathloncard",
+    title: "$100 Gift card from Decathlon",
+    scores: "10000",
+    unlock: false
+  }
+];

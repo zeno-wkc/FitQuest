@@ -33,11 +33,24 @@ export default function History() {
                           return <FormattedMessage id="page.history.title03" />;
                         case 'Core Workout':
                           return <FormattedMessage id="page.history.title04" />;
+                        default:
+                          return null;
                   }})()}
                 </p>
                 <p className={styles.historyContentResult}>{item.result}</p>
               </div>
-              <p className={styles.historyContentDate}>{item.date}</p>
+              <div className={styles.historyReference}>
+                {(() => { 
+                      switch (item.status) {
+                        case 'Success':
+                          return <p className={styles.historyStatusG}><FormattedMessage id="page.history.status01" /></p>;
+                        case 'Failure':
+                          return <p className={styles.historyStatusR}><FormattedMessage id="page.history.status02" /></p>;
+                        default:
+                          return null;
+                }})()}
+                <p className={styles.historyContentDate}>{item.date}</p>
+              </div>
             </div>
           ))
         }

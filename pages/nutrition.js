@@ -3,7 +3,7 @@ import styles from "@/styles/Nutrition.module.css";
 import Image from "next/image";
 import TopBar from "@/components/TopBar";
 import BottomBar from "@/components/BottomBar";
-import FilterBar from "@/components/FilterBar";
+import FilterBarNutrition from "@/components/FilterBarNutrition";
 import Articles from "@/components/Articles";
 import { useRouter } from 'next/router';
 import { FormattedMessage, useIntl } from "react-intl";
@@ -38,7 +38,7 @@ export default function Nutrition() {
           <h1 className={styles.heading}>{contentTitle}</h1>
           <i className="icon-Group-172"></i>
         </div>
-        <FilterBar />
+        <FilterBarNutrition />
         <Articles />
       </main>
       <BottomBar />

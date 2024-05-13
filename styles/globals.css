@@ -12,6 +12,8 @@
   --grey-line: #D9D9D9;
   --grey-input: #2c2c2e;
   --bluegrey: #232627;
+  --green: #69ff67;
+  --red: #ff6264;
 }
 
 * {
@@ -222,4 +224,8 @@ i {
 
 .icon-Group-187:before {
   content: "\e925";
+}
+
+.icon-Group-188:before {
+  content: "\e926";
 }

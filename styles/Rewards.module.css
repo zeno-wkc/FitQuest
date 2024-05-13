@@ -3,7 +3,7 @@
   width: 430px;
   height: 932px;
   margin: 60px auto;
-  background-color: var(--red);
+  background-color: var(--black-bg);
   overflow: hidden;
   overflow-y: auto;
 }

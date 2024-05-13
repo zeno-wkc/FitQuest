@@ -52,7 +52,7 @@ export default function Weather() {
             (key < 7) && (
               <div key={key} className={styles.weatherContainer}>
                 <div className={styles.weatherMainContainer}>
-                  <Image src="/Sun.svg" width={80} height={80} alt="sun icon" priority={true} />
+                  <Image src={`/weather-icon/${item.icon}.svg`} width={80} height={80} alt={`${item.icon}`} priority={true} />
                   <div className={styles.currentWeather}>
                     <h2>{data.length > 0 ? item.conditions : ''}</h2>
                     <h1>{data.length > 0 ? celsusConvert(item.temp) : ''}</h1>
