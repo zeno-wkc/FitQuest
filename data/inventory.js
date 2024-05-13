@@ -148,11 +148,11 @@ export const settingValues = [
     title: "Appearance",
     settingItems: [{
       itemName: "Brightness",
-      icon: "180",
+      icon: "179",
       default: true
     },{
       itemName: "Text Size",
-      icon: "179",
+      icon: "180",
       default: true
     }]
   },{
@@ -192,7 +192,7 @@ export const settingValues = [
     title: "FAQ", 
     settingItems: [{
       itemName: "FAQ",
-      icon: "183",
+      icon: "189",
       link: "faq",
       default: true
     }]
