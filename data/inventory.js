@@ -254,7 +254,11 @@ export const history = [
 export const redeemItems = [
   {
     image: "sport-drink",
+<<<<<<< HEAD
     title: "Get 1 Free Bottle of Good Sport Enery Drink",
+=======
+    title: "Get 1 Free Bottle of Good Sport Energy Drink",
+>>>>>>> 88775a04a8985292a0587570ec0ccf694e885d0e
     scores: "500",
     unlock: true
   },{
@@ -299,12 +303,12 @@ export const redeemItems = [
     unlock: false
   },{
     image: "doordash",
-    title: "$100 Gift card from Doordash",
+    title: "$100 Gift card from DoorDash",
     scores: "10000",
     unlock: false
   },{
     image: "dick-sporting",
-    title: "$100 Gift card from Dick's Sporting",
+    title: "$100 Gift card from DICK'S Sporting Goods",
     scores: "10000",
     unlock: false
   },{
