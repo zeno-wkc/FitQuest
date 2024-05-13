@@ -165,7 +165,8 @@ export default function Question({setShowResult, setFinalAnswers, dir}) {
                       <>
                         {questionAnswers.map((k) => (
                           <div className={styles.answerContainer} key={k.answerId}>
-                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {answerIntl(currentQuestion, k.answerId)} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label>
+                            {/* <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {answerIntl(currentQuestion, k.answerId)} { currentQuestion === 3 && (<i className="icon-Group-164"></i>)}</label> */}
+                            <label className={styles.inputRadioLabel} htmlFor={k.answerTag}>{k.answerId}. {answerIntl(currentQuestion, k.answerId)}</label>
                             <input type="radio"
                               className={styles.inputRadioIcon}
                               id={k.answerTag}

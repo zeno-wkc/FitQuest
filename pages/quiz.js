@@ -42,7 +42,7 @@ export default function quiz({ dir }) {
           <div className={styles.quizDescContainer}>
             <div className={styles.bannerContainer}>
               <Image className={styles.imgBanner} src="/background-quiz.jpg" width={1295} height={648} alt="homepage background" priority={true} />
-              <h2>Quiz</h2>
+              <h2><FormattedMessage id="page.global.quiz" /></h2>
             </div>
             <div className={styles.contentContainer}>
               <h1>{contentH1}</h1>

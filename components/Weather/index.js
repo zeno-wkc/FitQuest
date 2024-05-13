@@ -39,9 +39,10 @@ export default function Weather() {
       .then((res) => res.json())
       .then((info) => {
         setData(info.days)
-        console.log(info.days.temp);
       })
   }, [])
+
+  console.log(data);
 
   return(
     <>

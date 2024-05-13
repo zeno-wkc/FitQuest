@@ -21,6 +21,7 @@
 .redeemRightContent h2{
   font-size: 28px;
   margin-bottom: 30px;
+  white-space: pre;
 }
 
 .redeemRightContent p{

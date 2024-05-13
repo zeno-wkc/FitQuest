@@ -44,18 +44,18 @@ export default function Settings({ dir }) {
           <h1 className={styles.heading}>{contentTitle}</h1>
           <div className={styles.settingContainer}>
             {
-              (settingValues) && (
-                settingValues.map((groupItem, groupKey) => (
-                  <div key={groupKey} className={styles.settingGroupContainer}>
-                    <p className={styles.settingGroupTitle}><FormattedMessage id={`page.settings.groupTitle0${groupKey+1}`} /></p>
-                    {
-                      (groupItem.settingItems) && (
-                      groupItem.settingItems.map((item, itemKey) => (
+              settingValues && settingValues.map((groupItem, groupKey) => (
+                <div key={`${groupKey}-group`} className={styles.settingGroupContainer}>
+                  <p className={styles.settingGroupTitle}><FormattedMessage id={`page.settings.groupTitle0${groupKey}`} /></p>
+                  {
+                     groupItem.settingItems && 
+                     groupItem.settingItems.map((item, itemKey) => (
+                      <div key={itemKey}>
                         <>
-                          {(item.itemName !== 'Brightness' && item.itemName !== 'Text Size' && item.itemName !== 'Language') && (
-                          <div className={styles.settingBtn} key={itemKey} >
+                          {(item.itemName !== 'Brightness' && item.itemName !== 'Text Size' && item.itemName !== 'Language' && item.itemName !== 'FAQ') && (
+                          <div className={styles.settingBtn} key={`${groupKey}-${itemKey}`} >
                             <i className={`${`icon-Group-${item.icon}`} ${styles.settingBtnIcon}`}></i>
-                            <p className={styles.settingBtntitle}><FormattedMessage id={`page.settings.itemTitle0${groupKey+itemKey+1}`} /></p>
+                            <p className={styles.settingBtntitle}><FormattedMessage id={`page.settings.itemTitle0${groupKey}-${itemKey}`} /></p>
                             <Switch
                               checked={item.default}
                               onChange={handleChange(groupKey, itemKey)}
@@ -70,17 +70,20 @@ export default function Settings({ dir }) {
                               className={`${`react-switch`} ${styles.switchBtn}`}
                             />
                           </div>)}
-                          {(item.itemName === 'Brightness' || item.itemName === 'Text Size' || item.itemName === 'Language') && (
-                          <button className={styles.settingBtn} key={itemKey} >
-                            <i className={`${`icon-Group-${item.icon}`} ${styles.settingBtnIcon}`}></i>
-                            <p className={styles.settingBtntitle}><FormattedMessage id={`page.settings.itemTitle0${groupKey+itemKey+1}`} /></p>
-                            <i className={`${"icon-Group-174"} ${styles.arrowBtnIcon}`}></i>
-                          </button>)}
+                          {(item.itemName === 'Brightness' || item.itemName === 'Text Size' || item.itemName === 'Language' || item.itemName === 'FAQ') && (
+                          <Link href={(item.link) ? `/${item.link}`: ''}>
+                            <button className={styles.settingBtn} key={`${groupKey}-${itemKey}-button`}>
+                              <i className={`${`icon-Group-${item.icon}`} ${styles.settingBtnIcon}`}></i>
+                              <p className={styles.settingBtntitle}><FormattedMessage id={`page.settings.itemTitle0${groupKey}-${itemKey}`} /></p>
+                              <i className={`${"icon-Group-174"} ${styles.arrowBtnIcon}`}></i>
+                            </button>
+                          </Link>)}
                         </>
-                      )))
-                    }
-                  </div>
-              )))
+                      </div>
+                     ))
+                  }
+                </div>
+              ))
             }
           </div>
         </main>

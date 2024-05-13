@@ -31,8 +31,7 @@
 }
 
 .pageTitle {
-  padding: 20px 0;
-  font-size: 20px;
+  margin: 30px 0 0;
   color: var(--white);
 }
 
@@ -123,3 +122,41 @@
   margin-right: 5px;
   background-color: var(--orange);
 }
+
+.filterBarVideoContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.filterBarVideo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  margin: 15px 0;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+}
+
+.filterBarVideoBtn {
+  margin-right: 15px;
+  min-width: fit-content;
+}
+
+.filterBarVideoBtn p {
+  padding: 10px 20px;
+  background-color: #2c2c2e;
+  border-radius: 30px;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.filterBarVideoBtn:hover p {
+  cursor: pointer;
+  background-color: var(--orange);
+}
+

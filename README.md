@@ -18,3 +18,4 @@
 - i18next
 - react-intl
 - react-switch
+- react-accessible-accordion

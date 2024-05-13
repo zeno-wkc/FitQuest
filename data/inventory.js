@@ -188,6 +188,14 @@ export const settingValues = [
       icon: "183",
       default: true
     }]
+  },{
+    title: "FAQ", 
+    settingItems: [{
+      itemName: "FAQ",
+      icon: "183",
+      link: "faq",
+      default: true
+    }]
   }
 ];
 
@@ -201,13 +209,13 @@ export const history = [
   },{
     icon: "151",
     title: "Full Body Workout",
-    result: "3.80km",
+    result: "2hr",
     status: "Success",
     date: "2024.05.11"
   },{
     icon: "150",
     title: "Core Workout",
-    result: "1hr",
+    result: "5min",
     status: "Failure",
     date: "2024.05.10"
   },{
@@ -231,13 +239,13 @@ export const history = [
   },{
     icon: "149",
     title: "Upper Body Workout",
-    result: "3.80km",
+    result: "3hr",
     status: "Success",
     date: "2024.05.07"
   },{
     icon: "185",
     title: "Outdoor Running",
-    result: "2.80km",
+    result: "0.50km",
     status: "Failure",
     date: "2024.05.06"
   },
@@ -246,24 +254,24 @@ export const history = [
 export const redeemItems = [
   {
     image: "sport-drink",
-    title: "Get 1 Free Good Sport Bottle of Enery Drink",
+    title: "Get 1 Free Bottle of Good Sport Enery Drink",
     scores: "500",
     unlock: true
   },{
     image: "unnu",
-    title: "Get 1 Free Unnu Bottle of Enery Drink",
+    title: "Get 1 Free Bottle of Nuun Sport Drink",
     scores: "500",
     unlock: true
   },{
     image: "yoga-mat",
     title: "Get 1 Free Fitness Mat",
     scores: "1000",
-    lock: false
+    unlock: true
   },{
     image: "decathlon",
     title: "Get 20% off for Online Purchase",
     scores: "1000",
-    unlock: false
+    unlock: true
   },{
     image: "nutrition",
     title: "Get 1 Free Nutrition Consultation",
@@ -281,8 +289,8 @@ export const redeemItems = [
     unlock: false
   },{
     image: "under-armour",
-    title: "$50 Gift card from Underarmour",
-    scores: "500",
+    title: "$50 Gift card from Under Armour",
+    scores: "5000",
     unlock: false
   },{
     image: "lululemon",
@@ -304,5 +312,30 @@ export const redeemItems = [
     title: "$100 Gift card from Decathlon",
     scores: "10000",
     unlock: false
+  }
+];
+
+
+export const faqItems = [
+  { 
+    id: "1",
+    question: "Does FitQuest store my personal information?",
+    anwser: "FitQuest only collects essential personal information, such as your name and email address, for registration purposes. Rest assured that any data inputted during the quiz upon signup remains strictly confidential and inaccessible to FitQuest or any third parties."
+  },{
+    id: "2",
+    question: "How do I change the language preferences?",
+    anwser: "To change the language preferences go to Settings > Languages > Turn the Switch of your preferred language on (orange)."
+  },{
+    id: "3",
+    question: "Can I download nutrition articles?",
+    anwser: "While nutrition articles cannot be downloaded, users have the option to favourite them for future reference. By simply clicking the heart icon, articles can be added to your favorites. To access all your favorited articles conveniently, navigate to the main nutrition page and select 'View Favorites'."
+  },{
+    id: "4",
+    question: "How are my recommended videos curated to me?",
+    anwser: "Our recommended videos feature is designed to tailor content to your specific needs and preferences. By analyzing your quiz results, as well as considering your fitness goals and any limitations you may have, we curate a selection of videos aimed at optimizing your fitness journey. This personalized approach ensures that you receive the most relevant and beneficial content to support you in achieving your fitness objectives."
+  },{
+    id: "5",
+    question: "If I close app will I lose my progress?",
+    anwser: "You will need to sign in again if you close the app, but you will still be able to see your favourited articles. You will not be able to pick up from where you left off if you were in the middle of a video when you closed the app however."
   }
 ];

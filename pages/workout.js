@@ -13,14 +13,23 @@ export default function workout({ dir }) {
   const page = 'workout';
   const { locales } = useRouter();
   const intl = useIntl();
-  const filterVideo = videoInventory;
+  const filterVideoOrginal = videoInventory;
   const title = intl.formatMessage({ id: 'page.workout.head.title' });
   const description = intl.formatMessage({ id: 'page.workout.head.meta.description' });
+  const bodyPart0 = intl.formatMessage({ id: 'page.result.bodyPart0' });
   const bodyPart1 = intl.formatMessage({ id: 'page.result.bodyPart1' });
   const bodyPart2 = intl.formatMessage({ id: 'page.result.bodyPart2' });
   const bodyPart3 = intl.formatMessage({ id: 'page.result.bodyPart3' });
   const bodyPart4 = intl.formatMessage({ id: 'page.result.bodyPart4' });
-  
+
+  const [filterVideo, setFilterVideo] = useState(videoInventory);
+  const sorting = (sortItem) => {
+    sortItem != 'all' 
+    ? setFilterVideo(videoInventory.filter((item) => {return item.tag.includes(`${sortItem}`)}))
+    : setFilterVideo(filterVideoOrginal);
+  }
+
+
   const bodypart = (items) => {
     let tempItems = "";
     let hasYoga = false;
@@ -51,31 +60,41 @@ export default function workout({ dir }) {
       </Head>
       <div className={styles.mobileContainer}>
         <TopBar page={page} />
-        <main dir={dir} className={`${styles.main}`}>
-        <h2 className={styles.pageTitle}><FormattedMessage id="page.workout.title" /></h2>
-
-          { 
-            filterVideo.map((item, key) => (
-                <div key={`${key}`}>
-                  <Link className={styles.linkage} href={{ pathname: '/videoPageFull', query: { videoURL: item.videoURL }}}>
-                    <div key={`video${key}`} className={styles.videoCardItems}>
-                      <div className={styles.imageContainer}>
-                        <img className={styles.imageItem} src={`/image-thumbnail/${item.thumbnailLink}.jpeg`} />
-                      </div>
-                      <div className={styles.videoContentContainer}>
-                        <div className={styles.videoContentUpperContainer}>
-                          <h2>{bodypart(item.tag)}</h2>
+          <main dir={dir} className={`${styles.main}`}>
+          <h1 className={styles.pageTitle}><FormattedMessage id="page.workout.title" /></h1>
+          <div className={styles.filterBarVideoContainer}>
+            <ul className={styles.filterBarVideo}>
+              <li className={styles.filterBarVideoBtn} onClick={() => sorting('all')}><p>{bodyPart0}</p></li>
+              <li className={styles.filterBarVideoBtn} onClick={() => sorting('upperBody')}><p>{bodyPart1}</p></li>
+              <li className={styles.filterBarVideoBtn} onClick={() => sorting('lowerBody')}><p>{bodyPart2}</p></li>
+              <li className={styles.filterBarVideoBtn} onClick={() => sorting('coreBody')}><p>{bodyPart3}</p></li>
+              <li className={styles.filterBarVideoBtn} onClick={() => sorting('fullBody')}><p>{bodyPart4}</p></li>
+            </ul>
+          </div>
+          <div className={styles.resultContainer}>
+            { 
+              filterVideo.map((item, key) => (
+                  <div key={`${key}`}>
+                    <Link className={styles.linkage} href={{ pathname: '/videoPageFull', query: { videoURL: item.videoURL }}}>
+                      <div key={`video${key}`} className={styles.videoCardItems}>
+                        <div className={styles.imageContainer}>
+                          <img className={styles.imageItem} src={`/image-thumbnail/${item.thumbnailLink}.jpeg`} />
                         </div>
-                        <div className={styles.videoContentBottomContainer}>
-                          <h3 className={styles.videoTitle}>{item.videoName}</h3>
-                          <p>{item.videoTime}</p>
+                        <div className={styles.videoContentContainer}>
+                          <div className={styles.videoContentUpperContainer}>
+                            <h2>{bodypart(item.tag)}</h2>
+                          </div>
+                          <div className={styles.videoContentBottomContainer}>
+                            <h3 className={styles.videoTitle}>{item.videoName}</h3>
+                            <p>{item.videoTime}</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Link>
-                </div>
-            ))
-          }
+                    </Link>
+                  </div>
+              ))
+            }
+          </div>
         </main>
         <BottomBar />
       </div>

@@ -8,7 +8,7 @@ export default function Redeem() {
   const { locales } = useRouter();
   const intl = useIntl();
   const title = intl.formatMessage({ id: 'page.redeem.title' });
-  const location = intl.formatMessage({ id: 'page.redeem.title' });
+  const description = intl.formatMessage({ id: 'page.redeem.description' });
 
   return (
     <>
@@ -16,11 +16,11 @@ export default function Redeem() {
         <div className={styles.redeemContentContainer}>
           <Image className={styles.redeemLeftContent} src={`/fitnessRewards.jpg`} width={2304} height={1536} alt="get rewards here" priority={true} />
           <div className={styles.redeemRightContent}>
-            <h2><FormattedMessage id="page.redeem.title" /></h2>
-            <p><FormattedMessage id="page.redeem.description" /></p>
+            <h2>{title}</h2>
+            <p>{description}</p>
           </div>
         </div>
-        <Link className={styles.redeemBtn} href={`/redeemPage`}><button><span>Redeem</span><i className="icon-Group-165"></i></button></Link>
+        <Link className={styles.redeemBtn} href={`/redeemPage`}><button><span><FormattedMessage id="page.global.redeem" /></span><i className="icon-Group-165"></i></button></Link>
       </div>
     </>
   );
