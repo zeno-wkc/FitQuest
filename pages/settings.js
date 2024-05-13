@@ -50,7 +50,7 @@ export default function Settings({ dir }) {
                   {
                      groupItem.settingItems && 
                      groupItem.settingItems.map((item, itemKey) => (
-                      <div key={itemKey}>
+                      <div key={itemKey} className={styles.settingBtnCotainer}>
                         <>
                           {(item.itemName !== 'Brightness' && item.itemName !== 'Text Size' && item.itemName !== 'Language' && item.itemName !== 'FAQ') && (
                           <div className={styles.settingBtn} key={`${groupKey}-${itemKey}`} >
