@@ -258,7 +258,7 @@ export const redeemItems = [
     image: "yoga-mat",
     title: "Get 1 Free Fitness Mat",
     scores: "1000",
-    lock: true
+    lock: false
   },{
     image: "decathlon",
     title: "Get 20% off for Online Purchase",
