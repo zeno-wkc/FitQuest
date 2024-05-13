@@ -141,7 +141,7 @@ export const settingValues = [
     title: "Notifications", 
     settingItems: [{
       itemName: "Show Notifications",
-      icon: "176",
+      icon: "166",
       default: true
     }]
   },{
