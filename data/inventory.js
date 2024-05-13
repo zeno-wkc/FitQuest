@@ -246,24 +246,24 @@ export const history = [
 export const redeemItems = [
   {
     image: "sport-drink",
-    title: "Get 1 Free Good Sport Bottle of Enery Drink",
+    title: "Get 1 Free Bottle of Good Sport Energy Drink",
     scores: "500",
     unlock: true
   },{
     image: "unnu",
-    title: "Get 1 Free Unnu Bottle of Enery Drink",
+    title: "Get 1 Free Bottle of Nuun Sport Drink",
     scores: "500",
     unlock: true
   },{
     image: "yoga-mat",
     title: "Get 1 Free Fitness Mat",
     scores: "1000",
-    lock: false
+    lock: true
   },{
     image: "decathlon",
     title: "Get 20% off for Online Purchase",
     scores: "1000",
-    unlock: false
+    unlock: true
   },{
     image: "nutrition",
     title: "Get 1 Free Nutrition Consultation",
@@ -281,8 +281,8 @@ export const redeemItems = [
     unlock: false
   },{
     image: "under-armour",
-    title: "$50 Gift card from Underarmour",
-    scores: "500",
+    title: "$50 Gift card from Under Armour",
+    scores: "5000",
     unlock: false
   },{
     image: "lululemon",
@@ -291,12 +291,12 @@ export const redeemItems = [
     unlock: false
   },{
     image: "doordash",
-    title: "$100 Gift card from Doordash",
+    title: "$100 Gift card from DoorDash",
     scores: "10000",
     unlock: false
   },{
     image: "dick-sporting",
-    title: "$100 Gift card from Dick's Sporting",
+    title: "$100 Gift card from DICK'S Sporting Goods",
     scores: "10000",
     unlock: false
   },{
