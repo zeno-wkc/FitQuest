@@ -47,7 +47,6 @@
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 14px;
-  line-height: 22px;
   background-color: var(--grey-input);
 }
 
@@ -64,7 +63,7 @@
 .paragraph {
   margin-bottom: 15px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
   color: var(--white);
 }
 
