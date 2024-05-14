@@ -32,7 +32,7 @@ export default function TopBar({ page }) {
         {showMenu && (
           <div className={styles.languageMenu}>
             {[...locales].sort().map((locale) => (
-              <Link key={locale} href={page ? `/${page}` : '/'} locale={locale}>
+              <Link key={locale} href={page ? `/${page}` : '/homepage'} locale={locale}>
                 <div>{ locale === 'en' ? 'English' : '中文(繁)'}</div></Link>
             ))}
           </div>

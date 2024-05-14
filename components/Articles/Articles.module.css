@@ -27,7 +27,9 @@
 }
 
 .titleContainer p {
-  font-sizE: 14px;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
 }
 
 .titleContainer i {
