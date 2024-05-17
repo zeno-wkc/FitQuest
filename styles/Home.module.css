@@ -52,7 +52,7 @@
 
 .imgContainer:after {
   content: '';
-  width: 100vw;
+  width: 100%;
   display: block;
   position: absolute;
   top: 0;
